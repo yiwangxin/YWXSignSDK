@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YWXSignSDK/BjcaSignSDK (0.1.0):
+    - YWXSignSDK/Core
+  - YWXSignSDK/Core (0.1.0):
+    - YWXSignSDK/YWXSignFoundation
+  - YWXSignSDK/YWXSignFoundation (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YWXSignSDK/BjcaSignSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YWXSignSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YWXSignSDK: aacc96811336d24a4b0c3378158b5235dae72dc1
+
+PODFILE CHECKSUM: 13342c852de662757da48b110a924242ad48976c
+
+COCOAPODS: 1.10.0

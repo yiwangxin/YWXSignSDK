@@ -1,9 +1,9 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'YWXSignSDK_Example' do
-  pod 'YWXSignSDK', :path => '../'
+  pod 'YWXSignSDK/BjcaSignSDK', :path => '../'
 
   target 'YWXSignSDK_Tests' do
     inherit! :search_paths

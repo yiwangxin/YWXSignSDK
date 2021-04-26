@@ -21,22 +21,32 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/XiaoY2017/YWXSignSDK'
+  s.homepage         = 'https://github.com/yiwangxin/YWXSignSDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'XiaoY2017' => 'yuanliwei@bjca.org.cn' }
-  s.source           = { :git => 'https://github.com/XiaoY2017/YWXSignSDK.git', :tag => s.version.to_s }
+  s.author           = { 'XiaoY2017' => 'szyx@bjca.org.cn' }
+  s.source           = { :git => 'https://github.com/yiwangxin/YWXSignSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'YWXSignSDK/Classes/**/*'
+  s.ios.deployment_target = '10.0'
   
-  # s.resource_bundles = {
-  #   'YWXSignSDK' => ['YWXSignSDK/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.default_subspecs = 'Core'
+    
+  # 核心模块
+  s.subspec 'Core' do |sp|
+    sp.vendored_frameworks = 'YWXSignSDK/Core/YWXSignSDK.framework'
+    sp.resources = 'YWXSignSDK/Core/YWXSignSDK.bundle'
+    sp.dependency 'YWXSignSDK/YWXSignFoundation'
+  end
+  
+  s.subspec 'YWXSignFoundation' do |sp|
+    sp.vendored_frameworks = 'YWXSignSDK/Support/Required/YWXSignFoundation.framework'
+  end
+  
+  s.subspec 'BjcaSignSDK' do |sp|
+    sp.vendored_frameworks = 'YWXSignSDK/Support/Optional/BjcaSignSDK/BjcaSignSDK.framework'
+    sp.resources = ['YWXSignSDK/Support/Optional/BjcaSignSDK/keyBoard.bundle','YWXSignSDK/Support/Optional/BjcaSignSDK/Signet-SDK-Bundle.bundle']
+    sp.dependency 'YWXSignSDK/Core'
+  end
+  
 end
