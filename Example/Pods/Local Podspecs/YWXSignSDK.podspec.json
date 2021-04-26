@@ -1,6 +1,6 @@
 {
   "name": "YWXSignSDK",
-  "version": "0.1.0",
+  "version": "0.0.1-alpha",
   "summary": "A short description of YWXSignSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yiwangxin/YWXSignSDK.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yiwangxin/YWXSignSDK.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1-alpha"
   },
   "platforms": {
     "ios": "10.0"

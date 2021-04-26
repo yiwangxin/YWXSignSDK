@@ -609,10 +609,10 @@
 		DAA9C39B2636938600A9CA7D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DAA9C39C2636938600A9CA7D /* ViewController.m */,
-				DAA9C39D2636938600A9CA7D /* MainTabBarController.m */,
-				DAA9C39E2636938600A9CA7D /* MainTabBarController.h */,
 				DAA9C39F2636938600A9CA7D /* ViewController.h */,
+				DAA9C39C2636938600A9CA7D /* ViewController.m */,
+				DAA9C39E2636938600A9CA7D /* MainTabBarController.h */,
+				DAA9C39D2636938600A9CA7D /* MainTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -843,6 +843,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = XiaoY2017;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Q62L4Y97PK;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -1198,11 +1201,13 @@
 			baseConfigurationReference = 0640CA92B7BC8EAAA005D1B1 /* Pods-YWXSignSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q62L4Y97PK;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWXSignSDK/Support/Resource/YWXSignSDK-Prefix.pch";
 				INFOPLIST_FILE = "YWXSignSDK/Support/Resource/YWXSignSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.org.bjca.szyx.YWXSignSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -1214,11 +1219,13 @@
 			baseConfigurationReference = 358EC723FFC51C59A1342092 /* Pods-YWXSignSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q62L4Y97PK;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWXSignSDK/Support/Resource/YWXSignSDK-Prefix.pch";
 				INFOPLIST_FILE = "YWXSignSDK/Support/Resource/YWXSignSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.org.bjca.szyx.YWXSignSDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

@@ -26,8 +26,8 @@
     YWXNewSignViewController *newSignController = [[YWXNewSignViewController alloc] init];
     [self setChildViewController:newSignController title:@"新签名" imageName:@"arrow_up" seleceImageName:@"arrow_down"];
 //#elif TARGETSTYPE == 2
-//    YWXOldBjcaSignViewController *oldBjcaSignController = [[YWXOldBjcaSignViewController alloc] init];
-//    [self setChildViewController:oldBjcaSignController title:@"旧签名" imageName:@"arrow_up" seleceImageName:@"arrow_down"];
+    YWXOldBjcaSignViewController *oldBjcaSignController = [[YWXOldBjcaSignViewController alloc] init];
+    [self setChildViewController:oldBjcaSignController title:@"旧签名" imageName:@"arrow_up" seleceImageName:@"arrow_down"];
 //#endif
 }
 
