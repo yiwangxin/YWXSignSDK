@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E70951CD5B897AD7C7717B0 /* Pods_YWXSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E781BC1D69A22F1CB194A /* Pods_YWXSignSDK_Example.framework */; };
+		4FA148344F74E4CB941C8C87 /* Pods_YWXSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E781BC1D69A22F1CB194A /* Pods_YWXSignSDK_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -92,7 +93,6 @@
 		DA7DCCF6264BA9EB004123AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		DA7DCCF7264BA9EB004123AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		DA7DCCF8264BA9EB004123AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		DA7DCCF9264BA9EB004123AB /* Pods_YWXSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E781BC1D69A22F1CB194A /* Pods_YWXSignSDK_Example.framework */; };
 		DA7DCCFB264BA9EB004123AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		DA7DCCFC264BA9EB004123AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34C263692B800A9CA7D /* InfoPlist.strings */; };
 		DA7DCCFD264BA9EB004123AB /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C3E32636939100A9CA7D /* SGQRCode.bundle */; };
@@ -102,6 +102,7 @@
 		DA7DCD01264BA9EB004123AB /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C3FD2636939200A9CA7D /* IQKeyboardManager.bundle */; };
 		DA7DCD02264BA9EB004123AB /* YWXSignSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */; };
 		DA7DCD10264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7DCD0F264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist */; };
+		DA7DD0D4264BD8D7004123AB /* YWXSignSDK_ExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DD0D3264BD8D7004123AB /* YWXSignSDK_ExampleUITests.m */; };
 		DAA9C358263692B800A9CA7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34C263692B800A9CA7D /* InfoPlist.strings */; };
 		DAA9C359263692B800A9CA7D /* YWXSignSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */; };
 		DAA9C35A263692B800A9CA7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34F263692B800A9CA7D /* LaunchScreen.storyboard */; };
@@ -186,13 +187,18 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = YWXSignSDK;
 		};
+		DA7DD0D6264BD8D7004123AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = YWXSignSDK_Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00816F77B6DF58E52F303182 /* Pods-YWXSignSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0640CA92B7BC8EAAA005D1B1 /* Pods-YWXSignSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1997ABC11F09A324723AD1BB /* YWXSignSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWXSignSDK.podspec; path = ../YWXSignSDK.podspec; sourceTree = "<group>"; };
-		358EC723FFC51C59A1342092 /* Pods-YWXSignSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1997ABC11F09A324723AD1BB /* YWXSignSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YWXSignSDK.podspec; path = ../YWXSignSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4AB20C1B011AF6B322428B1C /* Pods-YWXSignSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		59D21E99896832619447D8A1 /* Pods_YWXSignSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWXSignSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YWXSignSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWXSignSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -209,6 +215,8 @@
 		79033990C136E185CD32D625 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D2CC119DD1FF21E4D886EE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A54E781BC1D69A22F1CB194A /* Pods_YWXSignSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWXSignSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9119113993437915E45510 /* Pods-YWXSignSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C2881CAF73D28002F576476E /* Pods-YWXSignSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldBjcaSignViewController.m; sourceTree = "<group>"; };
 		DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldSignDataViewController.m; sourceTree = "<group>"; };
 		DA7DCC9F264BA905004123AB /* YWXOldSignDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldSignDataViewController.h; sourceTree = "<group>"; };
@@ -217,6 +225,9 @@
 		DA7DCCA3264BA905004123AB /* YWXNewSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXNewSignViewController.h; sourceTree = "<group>"; };
 		DA7DCD07264BA9EB004123AB /* YWXBjcaSignSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWXBjcaSignSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7DCD0F264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YWXBjcaSignSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		DA7DD0D1264BD8D7004123AB /* YWXSignSDK_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWXSignSDK_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7DD0D3264BD8D7004123AB /* YWXSignSDK_ExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWXSignSDK_ExampleUITests.m; sourceTree = "<group>"; };
+		DA7DD0D5264BD8D7004123AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAA9C34D263692B800A9CA7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YWXSignSDK-Info.plist"; sourceTree = "<group>"; };
 		DAA9C350263692B800A9CA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -378,6 +389,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				4E70951CD5B897AD7C7717B0 /* Pods_YWXSignSDK_Example.framework in Frameworks */,
+				4FA148344F74E4CB941C8C87 /* Pods_YWXSignSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +411,13 @@
 				DA7DCCF6264BA9EB004123AB /* CoreGraphics.framework in Frameworks */,
 				DA7DCCF7264BA9EB004123AB /* UIKit.framework in Frameworks */,
 				DA7DCCF8264BA9EB004123AB /* Foundation.framework in Frameworks */,
-				DA7DCCF9264BA9EB004123AB /* Pods_YWXSignSDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7DD0CE264BD8D7004123AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +430,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YWXSignSDK */,
 				6003F5B5195388D20070C39A /* Tests */,
+				DA7DD0D2264BD8D7004123AB /* YWXSignSDK_ExampleUITests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				733B4B1D6C2E5EEC4A000F18 /* Pods */,
@@ -424,6 +443,7 @@
 				6003F58A195388D20070C39A /* YWXSignSDK_Example.app */,
 				6003F5AE195388D20070C39A /* YWXSignSDK_Tests.xctest */,
 				DA7DCD07264BA9EB004123AB /* YWXBjcaSignSDK_Example.app */,
+				DA7DD0D1264BD8D7004123AB /* YWXSignSDK_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -491,10 +511,10 @@
 		733B4B1D6C2E5EEC4A000F18 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0640CA92B7BC8EAAA005D1B1 /* Pods-YWXSignSDK_Example.debug.xcconfig */,
-				358EC723FFC51C59A1342092 /* Pods-YWXSignSDK_Example.release.xcconfig */,
 				00816F77B6DF58E52F303182 /* Pods-YWXSignSDK_Tests.debug.xcconfig */,
 				4AB20C1B011AF6B322428B1C /* Pods-YWXSignSDK_Tests.release.xcconfig */,
+				BA9119113993437915E45510 /* Pods-YWXSignSDK_Example.debug.xcconfig */,
+				C2881CAF73D28002F576476E /* Pods-YWXSignSDK_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -525,6 +545,15 @@
 				DA7DCCA3264BA905004123AB /* YWXNewSignViewController.h */,
 			);
 			path = YWXSignSDK;
+			sourceTree = "<group>";
+		};
+		DA7DD0D2264BD8D7004123AB /* YWXSignSDK_ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DD0D3264BD8D7004123AB /* YWXSignSDK_ExampleUITests.m */,
+				DA7DD0D5264BD8D7004123AB /* Info.plist */,
+			);
+			path = YWXSignSDK_ExampleUITests;
 			sourceTree = "<group>";
 		};
 		DAA9C349263692B800A9CA7D /* Support */ = {
@@ -926,11 +955,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA7DCD04264BA9EB004123AB /* Build configuration list for PBXNativeTarget "YWXBjcaSignSDK_Example" */;
 			buildPhases = (
-				DA7DCCAE264BA9EB004123AB /* [CP] Check Pods Manifest.lock */,
 				DA7DCCAF264BA9EB004123AB /* Sources */,
 				DA7DCCF5264BA9EB004123AB /* Frameworks */,
 				DA7DCCFA264BA9EB004123AB /* Resources */,
-				DA7DCD03264BA9EB004123AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -940,6 +967,24 @@
 			productName = YWXSignSDK;
 			productReference = DA7DCD07264BA9EB004123AB /* YWXBjcaSignSDK_Example.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DA7DD0D0264BD8D7004123AB /* YWXSignSDK_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7DD0DA264BD8D7004123AB /* Build configuration list for PBXNativeTarget "YWXSignSDK_ExampleUITests" */;
+			buildPhases = (
+				DA7DD0CD264BD8D7004123AB /* Sources */,
+				DA7DD0CE264BD8D7004123AB /* Frameworks */,
+				DA7DD0CF264BD8D7004123AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA7DD0D7264BD8D7004123AB /* PBXTargetDependency */,
+			);
+			name = YWXSignSDK_ExampleUITests;
+			productName = YWXSignSDK_ExampleUITests;
+			productReference = DA7DD0D1264BD8D7004123AB /* YWXSignSDK_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -960,6 +1005,12 @@
 					DA7DCCAD264BA9EB004123AB = {
 						DevelopmentTeam = Q62L4Y97PK;
 					};
+					DA7DD0D0264BD8D7004123AB = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = Q62L4Y97PK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6003F589195388D20070C39A;
+					};
 				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "YWXSignSDK" */;
@@ -979,6 +1030,7 @@
 				6003F589195388D20070C39A /* YWXSignSDK_Example */,
 				6003F5AD195388D20070C39A /* YWXSignSDK_Tests */,
 				DA7DCCAD264BA9EB004123AB /* YWXBjcaSignSDK_Example */,
+				DA7DD0D0264BD8D7004123AB /* YWXSignSDK_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1020,6 +1072,13 @@
 				DA7DCD00264BA9EB004123AB /* LaunchScreen.storyboard in Resources */,
 				DA7DCD01264BA9EB004123AB /* IQKeyboardManager.bundle in Resources */,
 				DA7DCD02264BA9EB004123AB /* YWXSignSDK-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7DD0CF264BD8D7004123AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1108,50 +1167,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA7DCCAE264BA9EB004123AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-YWXSignSDK_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DA7DCD03264BA9EB004123AB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example-resources.sh",
-				"${PODS_ROOT}/../../YWXSignSDK/Core/YWXSignSDK.bundle",
-				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle",
-				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YWXSignSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/keyBoard.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Signet-SDK-Bundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1317,6 +1332,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA7DD0CD264BD8D7004123AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7DD0D4264BD8D7004123AB /* YWXSignSDK_ExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1324,6 +1347,11 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* YWXSignSDK_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		DA7DD0D7264BD8D7004123AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* YWXSignSDK_Example */;
+			targetProxy = DA7DD0D6264BD8D7004123AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1446,7 +1474,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0640CA92B7BC8EAAA005D1B1 /* Pods-YWXSignSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = BA9119113993437915E45510 /* Pods-YWXSignSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q62L4Y97PK;
@@ -1469,7 +1497,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 358EC723FFC51C59A1342092 /* Pods-YWXSignSDK_Example.release.xcconfig */;
+			baseConfigurationReference = C2881CAF73D28002F576476E /* Pods-YWXSignSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q62L4Y97PK;
@@ -1538,7 +1566,6 @@
 		};
 		DA7DCD05264BA9EB004123AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0640CA92B7BC8EAAA005D1B1 /* Pods-YWXSignSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q62L4Y97PK;
@@ -1561,7 +1588,6 @@
 		};
 		DA7DCD06264BA9EB004123AB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 358EC723FFC51C59A1342092 /* Pods-YWXSignSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q62L4Y97PK;
@@ -1579,6 +1605,85 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DA7DD0D8264BD8D7004123AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Q62L4Y97PK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YWXSignSDK_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51trust.YWXSignSDK-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWXSignSDK_Example;
+			};
+			name = Debug;
+		};
+		DA7DD0D9264BD8D7004123AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q62L4Y97PK;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YWXSignSDK_ExampleUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.51trust.YWXSignSDK-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWXSignSDK_Example;
 			};
 			name = Release;
 		};
@@ -1617,6 +1722,15 @@
 			buildConfigurations = (
 				DA7DCD05264BA9EB004123AB /* Debug */,
 				DA7DCD06264BA9EB004123AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7DD0DA264BD8D7004123AB /* Build configuration list for PBXNativeTarget "YWXSignSDK_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7DD0D8264BD8D7004123AB /* Debug */,
+				DA7DD0D9264BD8D7004123AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

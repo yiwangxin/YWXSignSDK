@@ -20,6 +20,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'YWXSignSDK'
 ```
+ [具体集成文档可以参看官网开发文档](https://www.51trust.com/open/html/homeList/homePage.html)
 
 ## Author
 
