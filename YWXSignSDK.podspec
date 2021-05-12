@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YWXSignSDK'
-  s.version          = '0.0.1-alpha'
+  s.version          = '0.0.2-alpha'
   s.summary          = '医网信医生签名SDK'
 
 # This description is used to generate tags and improve search results.
@@ -43,9 +43,9 @@ TODO: Add long description of the pod here.
     sp.vendored_frameworks = 'YWXSignSDK/Support/Required/YWXSignFoundation.framework'
   end
   
-  s.subspec 'BjcaSignSDK' do |sp|
-    sp.vendored_frameworks = 'YWXSignSDK/Support/Optional/BjcaSignSDK/BjcaSignSDK.framework'
-    sp.resources = ['YWXSignSDK/Support/Optional/BjcaSignSDK/keyBoard.bundle','YWXSignSDK/Support/Optional/BjcaSignSDK/Signet-SDK-Bundle.bundle']
+  s.subspec 'YWXBjcaSignSDK' do |sp|
+    sp.vendored_frameworks = 'YWXSignSDK/Support/Optional/YWXBjcaSignSDK/YWXBjcaSignSDK.framework'
+    sp.resources = ['YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle','YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle']
     sp.dependency 'YWXSignSDK/Core'
   end
   

@@ -19,13 +19,30 @@
 
 @implementation YWXDemoNetManager
 
+-(void)setEnvironment:(YWXDemoEnvironment)environment {
+    _environment = environment;
+    switch (environment) {
+        case YWXDemoEnvironmentProduction:
+            _urlHost = @"https://www.51trust.com";
+            break;
+        case YWXDemoEnvironmentAcceptance:
+            _urlHost = @"http://test.51trust.com";
+            break;
+        case YWXDemoEnvironmentTesting:
+            _urlHost = @"http://beta.51trust.com";
+            break;
+        case YWXDemoEnvironmentDevelopment:
+            _urlHost = @"http://dev.51trust.com";
+            break;
+    }
+}
+
 + (instancetype)sharedManager {
     static YWXDemoNetManager *manager;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         manager = [self new];
         manager.sessionManager = [AFHTTPSessionManager manager];
-        manager.urlHost =@"http://dev.51trust.com";
     });
     return manager;
 }

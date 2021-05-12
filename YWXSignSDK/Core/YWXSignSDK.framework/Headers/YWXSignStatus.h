@@ -25,7 +25,7 @@ typedef NS_ENUM(NSUInteger, YWXEnvironment) {
 /// 状态码。
 typedef NSString *YWXSignStatusCode NS_EXTENSIBLE_STRING_ENUM;
 typedef YWXSignStatusCode YWXSignResponseCode;
-typedef void(^YWXSignCompletionBlock)(YWXSignStatusCode code, NSString *message, id _Nullable info);
+typedef void(^YWXCompletion)(YWXSignStatusCode status, NSString *message, id _Nullable data);
 
 /// 成功
 FOUNDATION_EXPORT YWXSignStatusCode const YWXSignStatusCodeSuccess; // 0

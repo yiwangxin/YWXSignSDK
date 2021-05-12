@@ -10,16 +10,21 @@
 #import "YWXSignBusinessFooterView.h"
 #import "YWXSignBusinessGroupModel.h"
 #import "YWXBaseViewController.h"
+#import "YWXDemoNetManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YWXBaseBusinessViewController : YWXBaseViewController
 
-@property(nonatomic, strong) YWXClientIdInfoView *clientInfoView;
+@property (nonatomic, strong) YWXClientIdInfoView *clientInfoView;
 
-@property(nonatomic, strong) YWXSignBusinessFooterView *footerView;
+@property (nonatomic, strong) YWXSignBusinessFooterView *footerView;
 
 @property (nonatomic,strong) NSArray *businessGroupModelArray;
+
+@property (nonatomic,strong) NSString *clientId;
+
+@property (nonatomic,strong) NSString *phoneNumber;
 
 -(void)initData;
 

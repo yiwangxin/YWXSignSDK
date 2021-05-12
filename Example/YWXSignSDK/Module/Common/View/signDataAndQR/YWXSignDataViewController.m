@@ -78,7 +78,7 @@
     
     [self.view endEditing:YES];
     if (_uniqueIdsArray.count <= 0) {
-//        [Tools TipMessage:@"签名数据不能为空！" ctrl:self];
+        [self showAlertWith:@"提示" code:@"-1" message:@"签名数据不能为空！" info:@{}];
         return;
     }
     if (self.signButtonClickCallBack) {
@@ -92,21 +92,20 @@
 }
 
 - (void)getUniqueIds:(UIButton *)button {
-//    BjcaServerType serverType = [BjcaSignManager bjcaServerType];
-//    if (serverType == BjcaPublic) {
-//        [Tools showTitle:@"提示" message:@"当前环境是线上正式环境，会产生脏数据，不建议同步！！！" errorCode:@"xxx" ctrl:self];
-//        return;
-//    }
+    if (YWXDemoNetManager.sharedManager.environment == YWXDemoEnvironmentProduction) {
+        [self showAlertWith:@"提示" code:@"-1" message:@"当前环境是线上正式环境，会产生脏数据，不建议同步！！！" info:@{}];
+        return;
+    }
     if (self.currentClientId.length <= 0) {
-//        [Tools showTitle:@"提示" message:@"ClientId为空" errorCode:@"xxx" ctrl:self];
+        [self showAlertWith:@"提示" code:@"-1" message:@"ClientId为空" info:@{}];
         return;
     }
     if (self.secretIdTextField.text.length <= 0) {
-//        [Tools showTitle:@"提示" message:@"secretId为空" errorCode:@"xxx" ctrl:self];
+        [self showAlertWith:@"提示" code:@"-1" message:@"secretId为空" info:@{}];
         return;
     }
     if (self.orderNumTextField.text.length <= 0) {
-//        [Tools showTitle:@"提示" message:@"请输入同步数量" errorCode:@"xxx" ctrl:self];
+        [self showAlertWith:@"提示" code:@"-1" message:@"请输入同步数量" info:@{}];
         return;
     }
     self.successLabel.text = [NSString stringWithFormat:@"已同步0条待签数据到医网信"];
@@ -133,6 +132,7 @@
         [self beginSynSendData:self.accessToken isPdf:isPdf];
     } failure:^(NSString * _Nonnull status, NSString * _Nonnull message, id  _Nullable info) {
         NSLog(@"status:%@ message:%@",status,message);
+        [self showAlertWith:@"获取token失败" code:status message:message info:info];
     }];
     
 }
@@ -181,6 +181,7 @@
             }
             self.uniqueIdTextView.text = [uniqueIdText copy];
         }
+        [self showAlertWith:@"提示" code:status message:message info:info];
     }];
     
     

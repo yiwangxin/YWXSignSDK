@@ -8,12 +8,26 @@
 
 #import <Foundation/Foundation.h>
 
+/// SDK 开发环境。
+typedef NS_ENUM(NSUInteger, YWXDemoEnvironment) {
+    /// 生产环境
+    YWXDemoEnvironmentProduction,
+    /// 集成环境
+    YWXDemoEnvironmentAcceptance,
+    /// 测试环境
+    YWXDemoEnvironmentTesting,
+    /// 开发环境
+    YWXDemoEnvironmentDevelopment,
+};
+
 typedef void(^YWXDemoNetManagerCompletionBlock)(NSString * _Nonnull status, NSString * _Nonnull message, id _Nullable info);
 NS_ASSUME_NONNULL_BEGIN
 
 @interface YWXDemoNetManager : NSObject
 
-@property(nonatomic, strong) NSString *urlHost;
+@property(nonatomic, assign) YWXDemoEnvironment environment;
+
+@property(nonatomic, strong, readonly) NSString *urlHost;
 
 + (instancetype)sharedManager;
 

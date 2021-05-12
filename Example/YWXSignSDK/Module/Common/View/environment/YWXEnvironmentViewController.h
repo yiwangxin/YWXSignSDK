@@ -8,19 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "YWXBaseViewController.h"
+#import "YWXDemoNetManager.h"
 
-
-/// SDK 开发环境。
-typedef NS_ENUM(NSUInteger, YWXDemoEnvironment) {
-    /// 生产环境
-    YWXDemoEnvironmentProduction,
-    /// 集成环境
-    YWXDemoEnvironmentAcceptance,
-    /// 测试环境
-    YWXDemoEnvironmentTesting,
-    /// 开发环境
-    YWXDemoEnvironmentDevelopment,
-};
 
 typedef void(^EnvironmentChangeClick)(YWXDemoEnvironment currentEnvironment);
 NS_ASSUME_NONNULL_BEGIN

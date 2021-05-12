@@ -97,14 +97,14 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/BjcaSignSDK/keyBoard.bundle"
-  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/BjcaSignSDK/Signet-SDK-Bundle.bundle"
   install_resource "${PODS_ROOT}/../../YWXSignSDK/Core/YWXSignSDK.bundle"
+  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle"
+  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/BjcaSignSDK/keyBoard.bundle"
-  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/BjcaSignSDK/Signet-SDK-Bundle.bundle"
   install_resource "${PODS_ROOT}/../../YWXSignSDK/Core/YWXSignSDK.bundle"
+  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle"
+  install_resource "${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

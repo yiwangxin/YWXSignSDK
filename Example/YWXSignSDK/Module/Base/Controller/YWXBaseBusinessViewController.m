@@ -10,6 +10,7 @@
 #import "YWXSignBusinessCell.h"
 #import "YWXSignBusinessSectionHeaderView.h"
 
+
 @interface YWXBaseBusinessViewController ()<UITableViewDelegate,UITableViewDataSource,YWXSignBusinessSectionHeaderViewDelegate>
 
 @property(nonatomic, strong) UITableView *tableView;
@@ -17,6 +18,14 @@
 @end
 
 @implementation YWXBaseBusinessViewController
+
+-(NSString *)clientId {
+    return self.clientInfoView.clientId;
+}
+
+-(NSString *)phoneNumber {
+    return self.clientInfoView.phoneNumber;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

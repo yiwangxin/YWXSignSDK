@@ -17,14 +17,97 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		DA7DCCA4264BA905004123AB /* YWXOldBjcaSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */; };
+		DA7DCCA5264BA905004123AB /* YWXOldSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */; };
+		DA7DCCA6264BA905004123AB /* YWXNewSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */; };
+		DA7DCCB0264BA9EB004123AB /* YWXUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C37C2636938500A9CA7D /* YWXUserInfoViewController.m */; };
+		DA7DCCB1264BA9EB004123AB /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4052636939200A9CA7D /* IQUIScrollView+Additions.m */; };
+		DA7DCCB2264BA9EB004123AB /* YWXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3992636938600A9CA7D /* YWXAppDelegate.m */; };
+		DA7DCCB3264BA9EB004123AB /* YWXClientIdInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3812636938500A9CA7D /* YWXClientIdInfoView.m */; };
+		DA7DCCB4264BA9EB004123AB /* YWXBaseBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3912636938600A9CA7D /* YWXBaseBusinessViewController.m */; };
+		DA7DCCB5264BA9EB004123AB /* YWXWaterMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C37A2636938500A9CA7D /* YWXWaterMarkView.m */; };
+		DA7DCCB6264BA9EB004123AB /* YWXCreatQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3752636938500A9CA7D /* YWXCreatQRCodeController.m */; };
+		DA7DCCB7264BA9EB004123AB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C40F2636939200A9CA7D /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		DA7DCCB8264BA9EB004123AB /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4202636939200A9CA7D /* View+MASAdditions.m */; };
+		DA7DCCB9264BA9EB004123AB /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C40C2636939200A9CA7D /* IQKeyboardReturnKeyHandler.m */; };
+		DA7DCCBA264BA9EB004123AB /* YWXSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3732636938500A9CA7D /* YWXSignDataViewController.m */; };
+		DA7DCCBB264BA9EB004123AB /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D82636939100A9CA7D /* UITabBarController+MemoryLeak.m */; };
+		DA7DCCBC264BA9EB004123AB /* YWXEnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3832636938500A9CA7D /* YWXEnvironmentViewController.m */; };
+		DA7DCCBD264BA9EB004123AB /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C40A2636939200A9CA7D /* IQUIViewController+Additions.m */; };
+		DA7DCCBE264BA9EB004123AB /* YWXSignBusinessGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C36D2636938500A9CA7D /* YWXSignBusinessGroupModel.m */; };
+		DA7DCCBF264BA9EB004123AB /* YWXSignBusinessSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3702636938500A9CA7D /* YWXSignBusinessSectionHeaderView.m */; };
+		DA7DCCC0264BA9EB004123AB /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3F02636939100A9CA7D /* IQToolbar.m */; };
+		DA7DCCC1264BA9EB004123AB /* YWXSignRandomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C36C2636938500A9CA7D /* YWXSignRandomInfo.m */; };
+		DA7DCCC2264BA9EB004123AB /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3F22636939100A9CA7D /* IQTitleBarButtonItem.m */; };
+		DA7DCCC3264BA9EB004123AB /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3DE2636939100A9CA7D /* UIApplication+MemoryLeak.m */; };
+		DA7DCCC4264BA9EB004123AB /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C41D2636939200A9CA7D /* MASConstraintMaker.m */; };
+		DA7DCCC5264BA9EB004123AB /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4262636939200A9CA7D /* MASViewAttribute.m */; };
+		DA7DCCC6264BA9EB004123AB /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3DF2636939100A9CA7D /* NSObject+MemoryLeak.m */; };
+		DA7DCCC7264BA9EB004123AB /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3C62636939100A9CA7D /* AFSecurityPolicy.m */; };
+		DA7DCCC8264BA9EB004123AB /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C39D2636938600A9CA7D /* MainTabBarController.m */; };
+		DA7DCCC9264BA9EB004123AB /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3DB2636939100A9CA7D /* UIViewController+MemoryLeak.m */; };
+		DA7DCCCA264BA9EB004123AB /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4062636939200A9CA7D /* IQUIView+Hierarchy.m */; };
+		DA7DCCCB264BA9EB004123AB /* YWXSignDataBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3742636938500A9CA7D /* YWXSignDataBaseController.m */; };
+		DA7DCCCC264BA9EB004123AB /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4182636939200A9CA7D /* ViewController+MASAdditions.m */; };
+		DA7DCCCD264BA9EB004123AB /* YWXNewSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */; };
+		DA7DCCCE264BA9EB004123AB /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3EC2636939100A9CA7D /* IQTextView.m */; };
+		DA7DCCCF264BA9EB004123AB /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3F32636939100A9CA7D /* IQBarButtonItem.m */; };
+		DA7DCCD0264BA9EB004123AB /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D92636939100A9CA7D /* MLeaksMessenger.m */; };
+		DA7DCCD1264BA9EB004123AB /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4022636939200A9CA7D /* IQNSArray+Sort.m */; };
+		DA7DCCD2264BA9EB004123AB /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D42636939100A9CA7D /* UISplitViewController+MemoryLeak.m */; };
+		DA7DCCD3264BA9EB004123AB /* YWXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3902636938600A9CA7D /* YWXBaseNavigationController.m */; };
+		DA7DCCD4264BA9EB004123AB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C41C2636939200A9CA7D /* MASCompositeConstraint.m */; };
+		DA7DCCD5264BA9EB004123AB /* YWXQRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3872636938500A9CA7D /* YWXQRCodeScanViewController.m */; };
+		DA7DCCD6264BA9EB004123AB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4232636939200A9CA7D /* MASConstraint.m */; };
+		DA7DCCD7264BA9EB004123AB /* YWXOldSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */; };
+		DA7DCCD8264BA9EB004123AB /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D02636939100A9CA7D /* UIView+MemoryLeak.m */; };
+		DA7DCCD9264BA9EB004123AB /* SGQRCodeObtainConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3E42636939100A9CA7D /* SGQRCodeObtainConfigure.m */; };
+		DA7DCCDA264BA9EB004123AB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3C22636939100A9CA7D /* AFURLSessionManager.m */; };
+		DA7DCCDB264BA9EB004123AB /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3F42636939200A9CA7D /* IQUIView+IQKeyboardToolbar.m */; };
+		DA7DCCDC264BA9EB004123AB /* YWXSignBusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C37D2636938500A9CA7D /* YWXSignBusinessCell.m */; };
+		DA7DCCDD264BA9EB004123AB /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3C32636939100A9CA7D /* AFURLRequestSerialization.m */; };
+		DA7DCCDE264BA9EB004123AB /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3BF2636939100A9CA7D /* AFURLResponseSerialization.m */; };
+		DA7DCCDF264BA9EB004123AB /* YWXSignBusinessFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3802636938500A9CA7D /* YWXSignBusinessFooterView.m */; };
+		DA7DCCE0264BA9EB004123AB /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4002636939200A9CA7D /* IQKeyboardManager.m */; };
+		DA7DCCE1264BA9EB004123AB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3C52636939100A9CA7D /* AFNetworkReachabilityManager.m */; };
+		DA7DCCE2264BA9EB004123AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C39C2636938600A9CA7D /* ViewController.m */; };
+		DA7DCCE3264BA9EB004123AB /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3CA2636939100A9CA7D /* UINavigationController+MemoryLeak.m */; };
+		DA7DCCE4264BA9EB004123AB /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3C02636939100A9CA7D /* AFHTTPSessionManager.m */; };
+		DA7DCCE5264BA9EB004123AB /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4252636939200A9CA7D /* MASViewConstraint.m */; };
+		DA7DCCE6264BA9EB004123AB /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4042636939200A9CA7D /* IQUITextFieldView+Additions.m */; };
+		DA7DCCE7264BA9EB004123AB /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3CE2636939100A9CA7D /* MLeakedObjectProxy.m */; };
+		DA7DCCE8264BA9EB004123AB /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C41E2636939200A9CA7D /* MASLayoutConstraint.m */; };
+		DA7DCCE9264BA9EB004123AB /* YWXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3972636938600A9CA7D /* YWXViewController.m */; };
+		DA7DCCEA264BA9EB004123AB /* YWXQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3722636938500A9CA7D /* YWXQRCodeViewController.m */; };
+		DA7DCCEB264BA9EB004123AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C354263692B800A9CA7D /* main.m */; };
+		DA7DCCEC264BA9EB004123AB /* YWXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C38F2636938600A9CA7D /* YWXBaseViewController.m */; };
+		DA7DCCED264BA9EB004123AB /* SGQRCodeObtain.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3E82636939100A9CA7D /* SGQRCodeObtain.m */; };
+		DA7DCCEE264BA9EB004123AB /* YWXDemoNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C456263693A000A9CA7D /* YWXDemoNetManager.m */; };
+		DA7DCCEF264BA9EB004123AB /* SGQRCodeScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3E92636939100A9CA7D /* SGQRCodeScanView.m */; };
+		DA7DCCF0264BA9EB004123AB /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D32636939100A9CA7D /* UITouch+MemoryLeak.m */; };
+		DA7DCCF1264BA9EB004123AB /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C41F2636939200A9CA7D /* NSArray+MASAdditions.m */; };
+		DA7DCCF2264BA9EB004123AB /* YWXOldBjcaSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */; };
+		DA7DCCF3264BA9EB004123AB /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D62636939100A9CA7D /* UIPageViewController+MemoryLeak.m */; };
+		DA7DCCF4264BA9EB004123AB /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3F52636939200A9CA7D /* IQPreviousNextView.m */; };
+		DA7DCCF6264BA9EB004123AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		DA7DCCF7264BA9EB004123AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		DA7DCCF8264BA9EB004123AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		DA7DCCF9264BA9EB004123AB /* Pods_YWXSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54E781BC1D69A22F1CB194A /* Pods_YWXSignSDK_Example.framework */; };
+		DA7DCCFB264BA9EB004123AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		DA7DCCFC264BA9EB004123AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34C263692B800A9CA7D /* InfoPlist.strings */; };
+		DA7DCCFD264BA9EB004123AB /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C3E32636939100A9CA7D /* SGQRCode.bundle */; };
+		DA7DCCFE264BA9EB004123AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C355263692B800A9CA7D /* Images.xcassets */; };
+		DA7DCCFF264BA9EB004123AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C351263692B800A9CA7D /* Main.storyboard */; };
+		DA7DCD00264BA9EB004123AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34F263692B800A9CA7D /* LaunchScreen.storyboard */; };
+		DA7DCD01264BA9EB004123AB /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C3FD2636939200A9CA7D /* IQKeyboardManager.bundle */; };
+		DA7DCD02264BA9EB004123AB /* YWXSignSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */; };
+		DA7DCD10264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA7DCD0F264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist */; };
 		DAA9C358263692B800A9CA7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34C263692B800A9CA7D /* InfoPlist.strings */; };
 		DAA9C359263692B800A9CA7D /* YWXSignSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */; };
 		DAA9C35A263692B800A9CA7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C34F263692B800A9CA7D /* LaunchScreen.storyboard */; };
 		DAA9C35B263692B800A9CA7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C351263692B800A9CA7D /* Main.storyboard */; };
 		DAA9C35C263692B800A9CA7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C354263692B800A9CA7D /* main.m */; };
 		DAA9C35D263692B800A9CA7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA9C355263692B800A9CA7D /* Images.xcassets */; };
-		DAA9C3A02636938600A9CA7D /* YWXOldBjcaSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3642636938500A9CA7D /* YWXOldBjcaSignViewController.m */; };
-		DAA9C3A12636938600A9CA7D /* YWXOldSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3652636938500A9CA7D /* YWXOldSignDataViewController.m */; };
 		DAA9C3A22636938600A9CA7D /* YWXSignRandomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C36C2636938500A9CA7D /* YWXSignRandomInfo.m */; };
 		DAA9C3A32636938600A9CA7D /* YWXSignBusinessGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C36D2636938500A9CA7D /* YWXSignBusinessGroupModel.m */; };
 		DAA9C3A42636938600A9CA7D /* YWXSignBusinessSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3702636938500A9CA7D /* YWXSignBusinessSectionHeaderView.m */; };
@@ -39,7 +122,6 @@
 		DAA9C3AD2636938600A9CA7D /* YWXClientIdInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3812636938500A9CA7D /* YWXClientIdInfoView.m */; };
 		DAA9C3AE2636938600A9CA7D /* YWXEnvironmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3832636938500A9CA7D /* YWXEnvironmentViewController.m */; };
 		DAA9C3AF2636938600A9CA7D /* YWXQRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3872636938500A9CA7D /* YWXQRCodeScanViewController.m */; };
-		DAA9C3B02636938600A9CA7D /* YWXNewSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C38B2636938600A9CA7D /* YWXNewSignViewController.m */; };
 		DAA9C3B12636938600A9CA7D /* YWXBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C38F2636938600A9CA7D /* YWXBaseViewController.m */; };
 		DAA9C3B22636938600A9CA7D /* YWXBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3902636938600A9CA7D /* YWXBaseNavigationController.m */; };
 		DAA9C3B32636938600A9CA7D /* YWXBaseBusinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3912636938600A9CA7D /* YWXBaseBusinessViewController.m */; };
@@ -127,6 +209,14 @@
 		79033990C136E185CD32D625 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9D2CC119DD1FF21E4D886EE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A54E781BC1D69A22F1CB194A /* Pods_YWXSignSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YWXSignSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldBjcaSignViewController.m; sourceTree = "<group>"; };
+		DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldSignDataViewController.m; sourceTree = "<group>"; };
+		DA7DCC9F264BA905004123AB /* YWXOldSignDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldSignDataViewController.h; sourceTree = "<group>"; };
+		DA7DCCA0264BA905004123AB /* YWXOldBjcaSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldBjcaSignViewController.h; sourceTree = "<group>"; };
+		DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXNewSignViewController.m; sourceTree = "<group>"; };
+		DA7DCCA3264BA905004123AB /* YWXNewSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXNewSignViewController.h; sourceTree = "<group>"; };
+		DA7DCD07264BA9EB004123AB /* YWXBjcaSignSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWXBjcaSignSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7DCD0F264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YWXBjcaSignSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		DAA9C34D263692B800A9CA7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YWXSignSDK-Info.plist"; sourceTree = "<group>"; };
 		DAA9C350263692B800A9CA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -134,10 +224,6 @@
 		DAA9C353263692B800A9CA7D /* YWXSignSDK-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YWXSignSDK-Prefix.pch"; sourceTree = "<group>"; };
 		DAA9C354263692B800A9CA7D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DAA9C355263692B800A9CA7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DAA9C3642636938500A9CA7D /* YWXOldBjcaSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldBjcaSignViewController.m; sourceTree = "<group>"; };
-		DAA9C3652636938500A9CA7D /* YWXOldSignDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldSignDataViewController.m; sourceTree = "<group>"; };
-		DAA9C3662636938500A9CA7D /* YWXOldBjcaSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldBjcaSignViewController.h; sourceTree = "<group>"; };
-		DAA9C3672636938500A9CA7D /* YWXOldSignDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldSignDataViewController.h; sourceTree = "<group>"; };
 		DAA9C36A2636938500A9CA7D /* YWXSignRandomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXSignRandomInfo.h; sourceTree = "<group>"; };
 		DAA9C36B2636938500A9CA7D /* YWXSignBusinessGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXSignBusinessGroupModel.h; sourceTree = "<group>"; };
 		DAA9C36C2636938500A9CA7D /* YWXSignRandomInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXSignRandomInfo.m; sourceTree = "<group>"; };
@@ -166,8 +252,6 @@
 		DAA9C3862636938500A9CA7D /* YWXSignBusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXSignBusinessCell.h; sourceTree = "<group>"; };
 		DAA9C3872636938500A9CA7D /* YWXQRCodeScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXQRCodeScanViewController.m; sourceTree = "<group>"; };
 		DAA9C3882636938600A9CA7D /* YWXUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXUserInfoViewController.h; sourceTree = "<group>"; };
-		DAA9C38B2636938600A9CA7D /* YWXNewSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXNewSignViewController.m; sourceTree = "<group>"; };
-		DAA9C38C2636938600A9CA7D /* YWXNewSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXNewSignViewController.h; sourceTree = "<group>"; };
 		DAA9C38F2636938600A9CA7D /* YWXBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXBaseViewController.m; sourceTree = "<group>"; };
 		DAA9C3902636938600A9CA7D /* YWXBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXBaseNavigationController.m; sourceTree = "<group>"; };
 		DAA9C3912636938600A9CA7D /* YWXBaseBusinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXBaseBusinessViewController.m; sourceTree = "<group>"; };
@@ -308,6 +392,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA7DCCF5264BA9EB004123AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7DCCF6264BA9EB004123AB /* CoreGraphics.framework in Frameworks */,
+				DA7DCCF7264BA9EB004123AB /* UIKit.framework in Frameworks */,
+				DA7DCCF8264BA9EB004123AB /* Foundation.framework in Frameworks */,
+				DA7DCCF9264BA9EB004123AB /* Pods_YWXSignSDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -328,6 +423,7 @@
 			children = (
 				6003F58A195388D20070C39A /* YWXSignSDK_Example.app */,
 				6003F5AE195388D20070C39A /* YWXSignSDK_Tests.xctest */,
+				DA7DCD07264BA9EB004123AB /* YWXBjcaSignSDK_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -403,6 +499,34 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA7DCC9B264BA904004123AB /* YWXBjcaSignSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */,
+				DA7DCC9D264BA905004123AB /* Controller */,
+				DA7DCCA0264BA905004123AB /* YWXOldBjcaSignViewController.h */,
+			);
+			path = YWXBjcaSignSDK;
+			sourceTree = "<group>";
+		};
+		DA7DCC9D264BA905004123AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */,
+				DA7DCC9F264BA905004123AB /* YWXOldSignDataViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA7DCCA1264BA905004123AB /* YWXSignSDK */ = {
+			isa = PBXGroup;
+			children = (
+				DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */,
+				DA7DCCA3264BA905004123AB /* YWXNewSignViewController.h */,
+			);
+			path = YWXSignSDK;
+			sourceTree = "<group>";
+		};
 		DAA9C349263692B800A9CA7D /* Support */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +552,7 @@
 		DAA9C34B263692B800A9CA7D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				DA7DCD0F264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist */,
 				DAA9C34C263692B800A9CA7D /* InfoPlist.strings */,
 				DAA9C34E263692B800A9CA7D /* YWXSignSDK-Info.plist */,
 				DAA9C34F263692B800A9CA7D /* LaunchScreen.storyboard */,
@@ -453,33 +578,14 @@
 		DAA9C357263692B800A9CA7D /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				DA7DCC9B264BA904004123AB /* YWXBjcaSignSDK */,
+				DA7DCCA1264BA905004123AB /* YWXSignSDK */,
 				DAA9C3952636938600A9CA7D /* AppDelegete */,
 				DAA9C38D2636938600A9CA7D /* Base */,
 				DAA9C3682636938500A9CA7D /* Common */,
 				DAA9C39A2636938600A9CA7D /* Main */,
-				DAA9C3892636938600A9CA7D /* NewCloudSign */,
-				DAA9C3622636938500A9CA7D /* OldBjcaSign */,
 			);
 			path = Module;
-			sourceTree = "<group>";
-		};
-		DAA9C3622636938500A9CA7D /* OldBjcaSign */ = {
-			isa = PBXGroup;
-			children = (
-				DAA9C3632636938500A9CA7D /* Controller */,
-			);
-			path = OldBjcaSign;
-			sourceTree = "<group>";
-		};
-		DAA9C3632636938500A9CA7D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				DAA9C3642636938500A9CA7D /* YWXOldBjcaSignViewController.m */,
-				DAA9C3652636938500A9CA7D /* YWXOldSignDataViewController.m */,
-				DAA9C3662636938500A9CA7D /* YWXOldBjcaSignViewController.h */,
-				DAA9C3672636938500A9CA7D /* YWXOldSignDataViewController.h */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		DAA9C3682636938500A9CA7D /* Common */ = {
@@ -547,23 +653,6 @@
 				DAA9C3842636938500A9CA7D /* YWXEnvironmentViewController.h */,
 			);
 			path = environment;
-			sourceTree = "<group>";
-		};
-		DAA9C3892636938600A9CA7D /* NewCloudSign */ = {
-			isa = PBXGroup;
-			children = (
-				DAA9C38A2636938600A9CA7D /* Controller */,
-			);
-			path = NewCloudSign;
-			sourceTree = "<group>";
-		};
-		DAA9C38A2636938600A9CA7D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				DAA9C38C2636938600A9CA7D /* YWXNewSignViewController.h */,
-				DAA9C38B2636938600A9CA7D /* YWXNewSignViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		DAA9C38D2636938600A9CA7D /* Base */ = {
@@ -833,6 +922,25 @@
 			productReference = 6003F5AE195388D20070C39A /* YWXSignSDK_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DA7DCCAD264BA9EB004123AB /* YWXBjcaSignSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA7DCD04264BA9EB004123AB /* Build configuration list for PBXNativeTarget "YWXBjcaSignSDK_Example" */;
+			buildPhases = (
+				DA7DCCAE264BA9EB004123AB /* [CP] Check Pods Manifest.lock */,
+				DA7DCCAF264BA9EB004123AB /* Sources */,
+				DA7DCCF5264BA9EB004123AB /* Frameworks */,
+				DA7DCCFA264BA9EB004123AB /* Resources */,
+				DA7DCD03264BA9EB004123AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWXBjcaSignSDK_Example;
+			productName = YWXSignSDK;
+			productReference = DA7DCD07264BA9EB004123AB /* YWXBjcaSignSDK_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -848,6 +956,9 @@
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					DA7DCCAD264BA9EB004123AB = {
+						DevelopmentTeam = Q62L4Y97PK;
 					};
 				};
 			};
@@ -867,6 +978,7 @@
 			targets = (
 				6003F589195388D20070C39A /* YWXSignSDK_Example */,
 				6003F5AD195388D20070C39A /* YWXSignSDK_Tests */,
+				DA7DCCAD264BA9EB004123AB /* YWXBjcaSignSDK_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -892,6 +1004,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7DCCFA264BA9EB004123AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7DCD10264BAA6C004123AB /* YWXBjcaSignSDK_Example-Info.plist in Resources */,
+				DA7DCCFB264BA9EB004123AB /* LaunchScreen.storyboard in Resources */,
+				DA7DCCFC264BA9EB004123AB /* InfoPlist.strings in Resources */,
+				DA7DCCFD264BA9EB004123AB /* SGQRCode.bundle in Resources */,
+				DA7DCCFE264BA9EB004123AB /* Images.xcassets in Resources */,
+				DA7DCCFF264BA9EB004123AB /* Main.storyboard in Resources */,
+				DA7DCD00264BA9EB004123AB /* LaunchScreen.storyboard in Resources */,
+				DA7DCD01264BA9EB004123AB /* IQKeyboardManager.bundle in Resources */,
+				DA7DCD02264BA9EB004123AB /* YWXSignSDK-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -927,15 +1055,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example-resources.sh",
-				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/BjcaSignSDK/keyBoard.bundle",
-				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/BjcaSignSDK/Signet-SDK-Bundle.bundle",
 				"${PODS_ROOT}/../../YWXSignSDK/Core/YWXSignSDK.bundle",
+				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle",
+				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YWXSignSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/keyBoard.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Signet-SDK-Bundle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YWXSignSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -982,6 +1110,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DA7DCCAE264BA9EB004123AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YWXSignSDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA7DCD03264BA9EB004123AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example-resources.sh",
+				"${PODS_ROOT}/../../YWXSignSDK/Core/YWXSignSDK.bundle",
+				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle",
+				"${PODS_ROOT}/../../YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YWXSignSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/keyBoard.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Signet-SDK-Bundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1017,8 +1189,8 @@
 				DAA9C4352636939200A9CA7D /* UIViewController+MemoryLeak.m in Sources */,
 				DAA9C4472636939200A9CA7D /* IQUIView+Hierarchy.m in Sources */,
 				DAA9C3A72636938600A9CA7D /* YWXSignDataBaseController.m in Sources */,
-				DAA9C3A12636938600A9CA7D /* YWXOldSignDataViewController.m in Sources */,
 				DAA9C44B2636939200A9CA7D /* ViewController+MASAdditions.m in Sources */,
+				DA7DCCA6264BA905004123AB /* YWXNewSignViewController.m in Sources */,
 				DAA9C43C2636939200A9CA7D /* IQTextView.m in Sources */,
 				DAA9C43F2636939200A9CA7D /* IQBarButtonItem.m in Sources */,
 				DAA9C4342636939200A9CA7D /* MLeaksMessenger.m in Sources */,
@@ -1027,8 +1199,8 @@
 				DAA9C3B22636938600A9CA7D /* YWXBaseNavigationController.m in Sources */,
 				DAA9C44C2636939200A9CA7D /* MASCompositeConstraint.m in Sources */,
 				DAA9C3AF2636938600A9CA7D /* YWXQRCodeScanViewController.m in Sources */,
-				DAA9C3A02636938600A9CA7D /* YWXOldBjcaSignViewController.m in Sources */,
 				DAA9C4512636939200A9CA7D /* MASConstraint.m in Sources */,
+				DA7DCCA5264BA905004123AB /* YWXOldSignDataViewController.m in Sources */,
 				DAA9C42F2636939200A9CA7D /* UIView+MemoryLeak.m in Sources */,
 				DAA9C4392636939200A9CA7D /* SGQRCodeObtainConfigure.m in Sources */,
 				DAA9C4292636939200A9CA7D /* AFURLSessionManager.m in Sources */,
@@ -1055,8 +1227,8 @@
 				DAA9C43B2636939200A9CA7D /* SGQRCodeScanView.m in Sources */,
 				DAA9C4302636939200A9CA7D /* UITouch+MemoryLeak.m in Sources */,
 				DAA9C44F2636939200A9CA7D /* NSArray+MASAdditions.m in Sources */,
+				DA7DCCA4264BA905004123AB /* YWXOldBjcaSignViewController.m in Sources */,
 				DAA9C4322636939200A9CA7D /* UIPageViewController+MemoryLeak.m in Sources */,
-				DAA9C3B02636938600A9CA7D /* YWXNewSignViewController.m in Sources */,
 				DAA9C4412636939200A9CA7D /* IQPreviousNextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1066,6 +1238,82 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7DCCAF264BA9EB004123AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7DCCB0264BA9EB004123AB /* YWXUserInfoViewController.m in Sources */,
+				DA7DCCB1264BA9EB004123AB /* IQUIScrollView+Additions.m in Sources */,
+				DA7DCCB2264BA9EB004123AB /* YWXAppDelegate.m in Sources */,
+				DA7DCCB3264BA9EB004123AB /* YWXClientIdInfoView.m in Sources */,
+				DA7DCCB4264BA9EB004123AB /* YWXBaseBusinessViewController.m in Sources */,
+				DA7DCCB5264BA9EB004123AB /* YWXWaterMarkView.m in Sources */,
+				DA7DCCB6264BA9EB004123AB /* YWXCreatQRCodeController.m in Sources */,
+				DA7DCCB7264BA9EB004123AB /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				DA7DCCB8264BA9EB004123AB /* View+MASAdditions.m in Sources */,
+				DA7DCCB9264BA9EB004123AB /* IQKeyboardReturnKeyHandler.m in Sources */,
+				DA7DCCBA264BA9EB004123AB /* YWXSignDataViewController.m in Sources */,
+				DA7DCCBB264BA9EB004123AB /* UITabBarController+MemoryLeak.m in Sources */,
+				DA7DCCBC264BA9EB004123AB /* YWXEnvironmentViewController.m in Sources */,
+				DA7DCCBD264BA9EB004123AB /* IQUIViewController+Additions.m in Sources */,
+				DA7DCCBE264BA9EB004123AB /* YWXSignBusinessGroupModel.m in Sources */,
+				DA7DCCBF264BA9EB004123AB /* YWXSignBusinessSectionHeaderView.m in Sources */,
+				DA7DCCC0264BA9EB004123AB /* IQToolbar.m in Sources */,
+				DA7DCCC1264BA9EB004123AB /* YWXSignRandomInfo.m in Sources */,
+				DA7DCCC2264BA9EB004123AB /* IQTitleBarButtonItem.m in Sources */,
+				DA7DCCC3264BA9EB004123AB /* UIApplication+MemoryLeak.m in Sources */,
+				DA7DCCC4264BA9EB004123AB /* MASConstraintMaker.m in Sources */,
+				DA7DCCC5264BA9EB004123AB /* MASViewAttribute.m in Sources */,
+				DA7DCCC6264BA9EB004123AB /* NSObject+MemoryLeak.m in Sources */,
+				DA7DCCC7264BA9EB004123AB /* AFSecurityPolicy.m in Sources */,
+				DA7DCCC8264BA9EB004123AB /* MainTabBarController.m in Sources */,
+				DA7DCCC9264BA9EB004123AB /* UIViewController+MemoryLeak.m in Sources */,
+				DA7DCCCA264BA9EB004123AB /* IQUIView+Hierarchy.m in Sources */,
+				DA7DCCCB264BA9EB004123AB /* YWXSignDataBaseController.m in Sources */,
+				DA7DCCCC264BA9EB004123AB /* ViewController+MASAdditions.m in Sources */,
+				DA7DCCCD264BA9EB004123AB /* YWXNewSignViewController.m in Sources */,
+				DA7DCCCE264BA9EB004123AB /* IQTextView.m in Sources */,
+				DA7DCCCF264BA9EB004123AB /* IQBarButtonItem.m in Sources */,
+				DA7DCCD0264BA9EB004123AB /* MLeaksMessenger.m in Sources */,
+				DA7DCCD1264BA9EB004123AB /* IQNSArray+Sort.m in Sources */,
+				DA7DCCD2264BA9EB004123AB /* UISplitViewController+MemoryLeak.m in Sources */,
+				DA7DCCD3264BA9EB004123AB /* YWXBaseNavigationController.m in Sources */,
+				DA7DCCD4264BA9EB004123AB /* MASCompositeConstraint.m in Sources */,
+				DA7DCCD5264BA9EB004123AB /* YWXQRCodeScanViewController.m in Sources */,
+				DA7DCCD6264BA9EB004123AB /* MASConstraint.m in Sources */,
+				DA7DCCD7264BA9EB004123AB /* YWXOldSignDataViewController.m in Sources */,
+				DA7DCCD8264BA9EB004123AB /* UIView+MemoryLeak.m in Sources */,
+				DA7DCCD9264BA9EB004123AB /* SGQRCodeObtainConfigure.m in Sources */,
+				DA7DCCDA264BA9EB004123AB /* AFURLSessionManager.m in Sources */,
+				DA7DCCDB264BA9EB004123AB /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				DA7DCCDC264BA9EB004123AB /* YWXSignBusinessCell.m in Sources */,
+				DA7DCCDD264BA9EB004123AB /* AFURLRequestSerialization.m in Sources */,
+				DA7DCCDE264BA9EB004123AB /* AFURLResponseSerialization.m in Sources */,
+				DA7DCCDF264BA9EB004123AB /* YWXSignBusinessFooterView.m in Sources */,
+				DA7DCCE0264BA9EB004123AB /* IQKeyboardManager.m in Sources */,
+				DA7DCCE1264BA9EB004123AB /* AFNetworkReachabilityManager.m in Sources */,
+				DA7DCCE2264BA9EB004123AB /* ViewController.m in Sources */,
+				DA7DCCE3264BA9EB004123AB /* UINavigationController+MemoryLeak.m in Sources */,
+				DA7DCCE4264BA9EB004123AB /* AFHTTPSessionManager.m in Sources */,
+				DA7DCCE5264BA9EB004123AB /* MASViewConstraint.m in Sources */,
+				DA7DCCE6264BA9EB004123AB /* IQUITextFieldView+Additions.m in Sources */,
+				DA7DCCE7264BA9EB004123AB /* MLeakedObjectProxy.m in Sources */,
+				DA7DCCE8264BA9EB004123AB /* MASLayoutConstraint.m in Sources */,
+				DA7DCCE9264BA9EB004123AB /* YWXViewController.m in Sources */,
+				DA7DCCEA264BA9EB004123AB /* YWXQRCodeViewController.m in Sources */,
+				DA7DCCEB264BA9EB004123AB /* main.m in Sources */,
+				DA7DCCEC264BA9EB004123AB /* YWXBaseViewController.m in Sources */,
+				DA7DCCED264BA9EB004123AB /* SGQRCodeObtain.m in Sources */,
+				DA7DCCEE264BA9EB004123AB /* YWXDemoNetManager.m in Sources */,
+				DA7DCCEF264BA9EB004123AB /* SGQRCodeScanView.m in Sources */,
+				DA7DCCF0264BA9EB004123AB /* UITouch+MemoryLeak.m in Sources */,
+				DA7DCCF1264BA9EB004123AB /* NSArray+MASAdditions.m in Sources */,
+				DA7DCCF2264BA9EB004123AB /* YWXOldBjcaSignViewController.m in Sources */,
+				DA7DCCF3264BA9EB004123AB /* UIPageViewController+MemoryLeak.m in Sources */,
+				DA7DCCF4264BA9EB004123AB /* IQPreviousNextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1205,6 +1453,11 @@
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWXSignSDK/Support/Resource/YWXSignSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGETSTYPE=1",
+				);
 				INFOPLIST_FILE = "YWXSignSDK/Support/Resource/YWXSignSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.org.bjca.szyx.YWXSignSDKDemo;
@@ -1223,6 +1476,11 @@
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YWXSignSDK/Support/Resource/YWXSignSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGETSTYPE=1",
+				);
 				INFOPLIST_FILE = "YWXSignSDK/Support/Resource/YWXSignSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.org.bjca.szyx.YWXSignSDKDemo;
@@ -1278,6 +1536,52 @@
 			};
 			name = Release;
 		};
+		DA7DCD05264BA9EB004123AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0640CA92B7BC8EAAA005D1B1 /* Pods-YWXSignSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q62L4Y97PK;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YWXSignSDK/Support/Resource/YWXSignSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGETSTYPE=2",
+				);
+				INFOPLIST_FILE = "YWXSignSDK/Support/Resource/YWXBjcaSignSDK_Example-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.org.bjca.szyx.YWXSignSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA7DCD06264BA9EB004123AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358EC723FFC51C59A1342092 /* Pods-YWXSignSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q62L4Y97PK;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YWXSignSDK/Support/Resource/YWXSignSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"TARGETSTYPE=2",
+				);
+				INFOPLIST_FILE = "YWXSignSDK/Support/Resource/YWXBjcaSignSDK_Example-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.org.bjca.szyx.YWXSignSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1304,6 +1608,15 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA7DCD04264BA9EB004123AB /* Build configuration list for PBXNativeTarget "YWXBjcaSignSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7DCD05264BA9EB004123AB /* Debug */,
+				DA7DCD06264BA9EB004123AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
