@@ -37,16 +37,16 @@ static NSString *KEnvironmentKeyName = @"serverType";
     YWXEnvironment environment;
     switch (currentEnvironment) {
         case YWXDemoEnvironmentProduction:
-            environment = YWXEnvironmentProduction;
+            environment = YWXEnvironmentPublic;
             break;
         case YWXDemoEnvironmentAcceptance:
-            environment = YWXEnvironmentAcceptance;
+            environment = YWXEnvironmentTest;
             break;
         case YWXDemoEnvironmentTesting:
-            environment = YWXEnvironmentTesting;
+            environment = YWXEnvironmentBeta;
             break;
         case YWXDemoEnvironmentDevelopment:
-            environment = YWXEnvironmentDevelopment;
+            environment = YWXEnvironmentDev;
             break;
     }
     [YWXSignManager.sharedManager startWithClientId:self.clientInfoView.clientId environment:environment];
