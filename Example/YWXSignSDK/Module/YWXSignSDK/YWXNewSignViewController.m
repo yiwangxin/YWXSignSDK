@@ -252,8 +252,12 @@ static NSString *KEnvironmentKeyName = @"serverType";
 
 /// 退出自动签
 -(void)quitAutoSign:(NSString *)sysTag {
+    NSString *tSysTag = sysTag;
+    if (sysTag.length <= 0) {
+        tSysTag = nil;
+    }
     __weak typeof(self) weakSelf = self;
-    [YWXSignManager.sharedManager stopSignAutoWithSysTag:sysTag completion:^(YWXSignStatusCode  _Nonnull code, NSString * _Nonnull message, id  _Nullable info) {
+    [YWXSignManager.sharedManager stopSignAutoWithSysTag:tSysTag completion:^(YWXSignStatusCode  _Nonnull code, NSString * _Nonnull message, id  _Nullable info) {
         [weakSelf showAlertWith:@"关闭自动签名" code:code message:message info:info];
     }];
 }

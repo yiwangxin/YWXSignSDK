@@ -352,7 +352,7 @@
     sleep(2);
     [app.buttons[@"OK"] tap];
     [configCell tap];
-        
+    
 }
 
 

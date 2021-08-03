@@ -18,7 +18,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		874DFFB6E8309237460A0760 /* Pods_Example_YWXSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA718B22E140BBB2E1DD4F1 /* Pods_Example_YWXSignSDK_Example.framework */; };
 		A251308340776946B66CD5B0 /* Pods_Example_YWXBjcaSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02318CD54BFB2BC26B668027 /* Pods_Example_YWXBjcaSignSDK_Example.framework */; };
-		DA7DCCA4264BA905004123AB /* YWXOldBjcaSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */; };
 		DA7DCCA5264BA905004123AB /* YWXOldSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */; };
 		DA7DCCA6264BA905004123AB /* YWXNewSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */; };
 		DA7DCCB0264BA9EB004123AB /* YWXUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C37C2636938500A9CA7D /* YWXUserInfoViewController.m */; };
@@ -1294,7 +1293,6 @@
 				DAA9C43B2636939200A9CA7D /* SGQRCodeScanView.m in Sources */,
 				DAA9C4302636939200A9CA7D /* UITouch+MemoryLeak.m in Sources */,
 				DAA9C44F2636939200A9CA7D /* NSArray+MASAdditions.m in Sources */,
-				DA7DCCA4264BA905004123AB /* YWXOldBjcaSignViewController.m in Sources */,
 				DAA9C4322636939200A9CA7D /* UIPageViewController+MemoryLeak.m in Sources */,
 				DAA9C4412636939200A9CA7D /* IQPreviousNextView.m in Sources */,
 			);

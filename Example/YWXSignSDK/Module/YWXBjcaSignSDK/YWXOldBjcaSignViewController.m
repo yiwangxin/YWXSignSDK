@@ -252,8 +252,12 @@ static NSString *KXBYEnvironmentKeyName = @"serverType";
 
 /// 退出自动签
 -(void)quitAutoSign:(NSString *)sysTag {
+    NSString *tSysTag = sysTag;
+    if (sysTag.length <= 0) {
+        tSysTag = nil;
+    }
     __weak typeof(self) weakSelf = self;
-    [self.signManager stopSignAutoWithSysTag:sysTag completion:^(NSString *code, NSString *message, id info) {
+    [self.signManager stopSignAutoWithSysTag:tSysTag completion:^(NSString *code, NSString *message, id info) {
         [weakSelf showAlertWith:@"关闭自动签名" code:code message:message info:info];
     }];
 }
