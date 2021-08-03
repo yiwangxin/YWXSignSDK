@@ -2,12 +2,18 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'YWXSignSDK_Example' do
-  pod 'YWXSignSDK/YWXBjcaSignSDK', :path => '../'
+abstract_target 'Example' do
+  pod 'YWXSignSDK', :path => '../'
 
-  target 'YWXSignSDK_Tests' do
-    inherit! :search_paths
+  target 'YWXSignSDK_Example' do
+    target 'YWXSignSDK_Tests' do
+      inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+      pod 'FBSnapshotTestCase'
+    end
+  end
+  
+  target 'YWXBjcaSignSDK_Example' do
+    pod 'YWXSignSDK/YWXBjcaSignSDK', :path => '../'
   end
 end

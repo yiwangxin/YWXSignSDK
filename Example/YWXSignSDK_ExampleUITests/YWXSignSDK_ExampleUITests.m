@@ -413,6 +413,12 @@
     [self cleanTextFieldText:passwordAgainTextField];
     [passwordAgainTextField typeText:@"123456"];
     [self closeKeyBoard:app];
+    XCUIElement *agreementButton = app.scrollViews.otherElements.buttons[@"agreement status normal@3x"];
+    if ([agreementButton waitForExistenceWithTimeout:5]) {
+        if (agreementButton.exists) {
+            [agreementButton tap];
+        }
+    }
     [downLoadButton tap];
     if ([okButton waitForExistenceWithTimeout:5]) {
         [okButton tap];
