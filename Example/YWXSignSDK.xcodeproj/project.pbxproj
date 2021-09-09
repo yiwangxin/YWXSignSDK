@@ -18,7 +18,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		874DFFB6E8309237460A0760 /* Pods_Example_YWXSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA718B22E140BBB2E1DD4F1 /* Pods_Example_YWXSignSDK_Example.framework */; };
 		A251308340776946B66CD5B0 /* Pods_Example_YWXBjcaSignSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02318CD54BFB2BC26B668027 /* Pods_Example_YWXBjcaSignSDK_Example.framework */; };
-		DA7DCCA5264BA905004123AB /* YWXOldSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */; };
 		DA7DCCA6264BA905004123AB /* YWXNewSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */; };
 		DA7DCCB0264BA9EB004123AB /* YWXUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C37C2636938500A9CA7D /* YWXUserInfoViewController.m */; };
 		DA7DCCB1264BA9EB004123AB /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4052636939200A9CA7D /* IQUIScrollView+Additions.m */; };
@@ -59,7 +58,6 @@
 		DA7DCCD4264BA9EB004123AB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C41C2636939200A9CA7D /* MASCompositeConstraint.m */; };
 		DA7DCCD5264BA9EB004123AB /* YWXQRCodeScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3872636938500A9CA7D /* YWXQRCodeScanViewController.m */; };
 		DA7DCCD6264BA9EB004123AB /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C4232636939200A9CA7D /* MASConstraint.m */; };
-		DA7DCCD7264BA9EB004123AB /* YWXOldSignDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */; };
 		DA7DCCD8264BA9EB004123AB /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3D02636939100A9CA7D /* UIView+MemoryLeak.m */; };
 		DA7DCCD9264BA9EB004123AB /* SGQRCodeObtainConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3E42636939100A9CA7D /* SGQRCodeObtainConfigure.m */; };
 		DA7DCCDA264BA9EB004123AB /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA9C3C22636939100A9CA7D /* AFURLSessionManager.m */; };
@@ -221,8 +219,6 @@
 		BA9119113993437915E45510 /* Pods-YWXSignSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C2881CAF73D28002F576476E /* Pods-YWXSignSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YWXSignSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-YWXSignSDK_Example/Pods-YWXSignSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldBjcaSignViewController.m; sourceTree = "<group>"; };
-		DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXOldSignDataViewController.m; sourceTree = "<group>"; };
-		DA7DCC9F264BA905004123AB /* YWXOldSignDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldSignDataViewController.h; sourceTree = "<group>"; };
 		DA7DCCA0264BA905004123AB /* YWXOldBjcaSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXOldBjcaSignViewController.h; sourceTree = "<group>"; };
 		DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWXNewSignViewController.m; sourceTree = "<group>"; };
 		DA7DCCA3264BA905004123AB /* YWXNewSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWXNewSignViewController.h; sourceTree = "<group>"; };
@@ -531,27 +527,17 @@
 		DA7DCC9B264BA904004123AB /* YWXBjcaSignSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */,
-				DA7DCC9D264BA905004123AB /* Controller */,
 				DA7DCCA0264BA905004123AB /* YWXOldBjcaSignViewController.h */,
+				DA7DCC9C264BA905004123AB /* YWXOldBjcaSignViewController.m */,
 			);
 			path = YWXBjcaSignSDK;
-			sourceTree = "<group>";
-		};
-		DA7DCC9D264BA905004123AB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				DA7DCC9E264BA905004123AB /* YWXOldSignDataViewController.m */,
-				DA7DCC9F264BA905004123AB /* YWXOldSignDataViewController.h */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		DA7DCCA1264BA905004123AB /* YWXSignSDK */ = {
 			isa = PBXGroup;
 			children = (
-				DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */,
 				DA7DCCA3264BA905004123AB /* YWXNewSignViewController.h */,
+				DA7DCCA2264BA905004123AB /* YWXNewSignViewController.m */,
 			);
 			path = YWXSignSDK;
 			sourceTree = "<group>";
@@ -649,9 +635,10 @@
 		DAA9C36E2636938500A9CA7D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DAA9C3712636938500A9CA7D /* signDataAndQR */,
+				DAA9C3822636938500A9CA7D /* environment */,
 				DAA9C36F2636938500A9CA7D /* YWXSignBusinessFooterView.h */,
 				DAA9C3702636938500A9CA7D /* YWXSignBusinessSectionHeaderView.m */,
-				DAA9C3712636938500A9CA7D /* signDataAndQR */,
 				DAA9C37A2636938500A9CA7D /* YWXWaterMarkView.m */,
 				DAA9C37B2636938500A9CA7D /* YWXClientIdInfoView.h */,
 				DAA9C37C2636938500A9CA7D /* YWXUserInfoViewController.m */,
@@ -660,7 +647,6 @@
 				DAA9C37F2636938500A9CA7D /* YWXSignBusinessSectionHeaderView.h */,
 				DAA9C3802636938500A9CA7D /* YWXSignBusinessFooterView.m */,
 				DAA9C3812636938500A9CA7D /* YWXClientIdInfoView.m */,
-				DAA9C3822636938500A9CA7D /* environment */,
 				DAA9C3852636938500A9CA7D /* YWXWaterMarkView.h */,
 				DAA9C3862636938500A9CA7D /* YWXSignBusinessCell.h */,
 				DAA9C3872636938500A9CA7D /* YWXQRCodeScanViewController.m */,
@@ -704,12 +690,12 @@
 		DAA9C38E2636938600A9CA7D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DAA9C38F2636938600A9CA7D /* YWXBaseViewController.m */,
-				DAA9C3902636938600A9CA7D /* YWXBaseNavigationController.m */,
-				DAA9C3912636938600A9CA7D /* YWXBaseBusinessViewController.m */,
-				DAA9C3922636938600A9CA7D /* YWXBaseNavigationController.h */,
 				DAA9C3932636938600A9CA7D /* YWXBaseViewController.h */,
+				DAA9C38F2636938600A9CA7D /* YWXBaseViewController.m */,
+				DAA9C3922636938600A9CA7D /* YWXBaseNavigationController.h */,
+				DAA9C3902636938600A9CA7D /* YWXBaseNavigationController.m */,
 				DAA9C3942636938600A9CA7D /* YWXBaseBusinessViewController.h */,
+				DAA9C3912636938600A9CA7D /* YWXBaseBusinessViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1266,7 +1252,6 @@
 				DAA9C44C2636939200A9CA7D /* MASCompositeConstraint.m in Sources */,
 				DAA9C3AF2636938600A9CA7D /* YWXQRCodeScanViewController.m in Sources */,
 				DAA9C4512636939200A9CA7D /* MASConstraint.m in Sources */,
-				DA7DCCA5264BA905004123AB /* YWXOldSignDataViewController.m in Sources */,
 				DAA9C42F2636939200A9CA7D /* UIView+MemoryLeak.m in Sources */,
 				DAA9C4392636939200A9CA7D /* SGQRCodeObtainConfigure.m in Sources */,
 				DAA9C4292636939200A9CA7D /* AFURLSessionManager.m in Sources */,
@@ -1349,7 +1334,6 @@
 				DA7DCCD4264BA9EB004123AB /* MASCompositeConstraint.m in Sources */,
 				DA7DCCD5264BA9EB004123AB /* YWXQRCodeScanViewController.m in Sources */,
 				DA7DCCD6264BA9EB004123AB /* MASConstraint.m in Sources */,
-				DA7DCCD7264BA9EB004123AB /* YWXOldSignDataViewController.m in Sources */,
 				DA7DCCD8264BA9EB004123AB /* UIView+MemoryLeak.m in Sources */,
 				DA7DCCD9264BA9EB004123AB /* SGQRCodeObtainConfigure.m in Sources */,
 				DA7DCCDA264BA9EB004123AB /* AFURLSessionManager.m in Sources */,

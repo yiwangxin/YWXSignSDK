@@ -25,10 +25,6 @@ static NSString *KEnvironmentKeyName = @"serverType";
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    __weak typeof(self) weakSelf = self;
-    [YWXEnvironmentViewController getCurrentEnviromentWithEnvironmentKeyName:KEnvironmentKeyName environmentChangeBlack:^(YWXDemoEnvironment currentEnvironment) {
-        [weakSelf changeEnvironmentWith:currentEnvironment];
-    }];
     [YWXSignManager.sharedManager setupUIForNavigationBarTintColor:UIColor.redColor
                                       navigationBarBackgroundColor:UIColor.yellowColor];
 }
@@ -37,10 +33,10 @@ static NSString *KEnvironmentKeyName = @"serverType";
     YWXEnvironment environment;
     switch (currentEnvironment) {
         case YWXDemoEnvironmentProduction:
-            environment = YWXEnvironmentPublic;
+            environment =     YWXEnvironmentPublic;
             break;
         case YWXDemoEnvironmentAcceptance:
-            environment = YWXEnvironmentTest;
+            environment =     YWXEnvironmentTest;
             break;
         case YWXDemoEnvironmentTesting:
             environment = YWXEnvironmentBeta;
@@ -373,6 +369,12 @@ static NSString *KEnvironmentKeyName = @"serverType";
         [weakSelf changeEnvironmentWith:currentEnvironment];
     };
     [self.navigationController pushViewController:envControler animated:YES];
+}
+
+-(void)showPinWindow{
+    [YWXSignManager.sharedManager showPinWindowWithCompletion:^(YWXSignStatusCode  _Nonnull code, NSString * _Nonnull message, id  _Nullable data) {
+        [self showAlertWith:@"展示密码输入" code:code message:message info:data];
+    }];
 }
 
 @end

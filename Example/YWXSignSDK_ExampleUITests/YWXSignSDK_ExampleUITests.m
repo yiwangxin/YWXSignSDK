@@ -1,20 +1,19 @@
 //
-//  YWXSignSDK_ExampleUITests.m
-//  YWXSignSDK_ExampleUITests
+//  YWXSignSDKDemoUITests.m
+//  YWXSignSDKDemoUITests
 //
-//  Created by szyx on 2021/5/12.
-//  Copyright © 2021 XiaoY2017. All rights reserved.
+//  Created by szyx on 2021/3/22.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface YWXSignSDK_ExampleUITests : XCTestCase
+@interface YWXSignSDKDemoUITests : XCTestCase
 @property (nonatomic, strong) XCUIApplication *app;
 @property (nonatomic, strong) XCUIElementQuery *tablesQuery;
 @property (nonatomic, assign) BOOL isOpenAutoSign;
 @end
 
-@implementation YWXSignSDK_ExampleUITests
+@implementation YWXSignSDKDemoUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -141,7 +140,9 @@
     if ([okButton waitForExistenceWithTimeout:60]) {
         [okButton tap];
     }
-    [app.navigationBars[@"\u65b0\u7b7e\u540d"].buttons[@"\u65b0\u7b7e\u540d"] tap];
+    if (app.navigationBars.firstMatch.buttons[@"\u8fd4\u56de"].exists) {
+        [app.navigationBars.firstMatch.buttons[@"\u8fd4\u56de"] tap];
+    }
     [signGroupCell tap];
 }
 
@@ -180,7 +181,9 @@
     if ([closeButton waitForExistenceWithTimeout:10]) {
         [closeButton tap];
     }
-    [app.navigationBars[@"\u65b0\u7b7e\u540d"].buttons[@"\u65b0\u7b7e\u540d"] tap];
+    if (app.navigationBars.firstMatch.buttons[@"\u8fd4\u56de"].exists) {
+        [app.navigationBars.firstMatch.buttons[@"\u8fd4\u56de"] tap];
+    }
     // 关闭签名列表
     [signCell tap];
 
@@ -273,7 +276,9 @@
     }
     [certInfoCell tap];
     sleep(20);
-    [app.navigationBars[@"\u65b0\u7b7e\u540d"].buttons[@"\u65b0\u7b7e\u540d"] tap];
+    if (app.navigationBars.firstMatch.buttons[@"\u8fd4\u56de"].exists) {
+        [app.navigationBars.firstMatch.buttons[@"\u8fd4\u56de"] tap];
+    }
     [certInfoGroupCell tap];
 }
 
@@ -352,7 +357,7 @@
     sleep(2);
     [app.buttons[@"OK"] tap];
     [configCell tap];
-    
+        
 }
 
 
@@ -401,6 +406,12 @@
     [passwordAgainTextField tap];
     [passwordAgainTextField typeText:@"123455"];
     [self closeKeyBoard:app];
+    XCUIElement *agreementButton = app.scrollViews.otherElements.buttons[@"agreement status normal@3x"];
+    if ([agreementButton waitForExistenceWithTimeout:5]) {
+        if (agreementButton.exists) {
+            [agreementButton tap];
+        }
+    }
     [downLoadButton tap];
     if ([okButton waitForExistenceWithTimeout:5]) {
         [okButton tap];
@@ -413,12 +424,6 @@
     [self cleanTextFieldText:passwordAgainTextField];
     [passwordAgainTextField typeText:@"123456"];
     [self closeKeyBoard:app];
-    XCUIElement *agreementButton = app.scrollViews.otherElements.buttons[@"agreement status normal@3x"];
-    if ([agreementButton waitForExistenceWithTimeout:5]) {
-        if (agreementButton.exists) {
-            [agreementButton tap];
-        }
-    }
     [downLoadButton tap];
     if ([okButton waitForExistenceWithTimeout:5]) {
         [okButton tap];
@@ -432,6 +437,7 @@
     if ([okButton waitForExistenceWithTimeout:20]) {
         [okButton tap];
     }
+    
 }
 
 - (void)cleanTextFieldText:(XCUIElement *)textField {

@@ -32,11 +32,6 @@ static NSString *KXBYEnvironmentKeyName = @"serverType";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.signManager = YWXBjcaSignManager.sharedManager;
-    __weak typeof(self) weakSelf = self;
-    [YWXEnvironmentViewController getCurrentEnviromentWithEnvironmentKeyName:KXBYEnvironmentKeyName
-                                                      environmentChangeBlack:^(YWXDemoEnvironment currentEnvironment) {
-        [weakSelf changeEnvironmentWith:currentEnvironment];
-    }];
 
 }
 
@@ -44,10 +39,10 @@ static NSString *KXBYEnvironmentKeyName = @"serverType";
     YWXEnvironment environment;
     switch (currentEnvironment) {
         case YWXDemoEnvironmentProduction:
-            environment = YWXEnvironmentPublic;
+            environment =     YWXEnvironmentPublic;
             break;
         case YWXDemoEnvironmentAcceptance:
-            environment = YWXEnvironmentTest;
+            environment =     YWXEnvironmentTest;
             break;
         case YWXDemoEnvironmentTesting:
             environment = YWXEnvironmentBeta;
