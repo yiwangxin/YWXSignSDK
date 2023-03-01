@@ -55,6 +55,8 @@ FOUNDATION_EXPORT YWXSignStatusCode const YWXSignStatusCodeCantSignOtherUserData
 FOUNDATION_EXPORT YWXSignStatusCode const YWXSignStatusCodeNetworkError; // 2001
 /// 当前二维码业务医网信无法处理
 FOUNDATION_EXPORT YWXSignStatusCode const YWXSignStatusCodeQRCodeError; // @"2002";
+/// 二维码Oauth登录需要授权人信息
+FOUNDATION_EXPORT YWXSignStatusCode const YWXSignStatusCodeNeedGrantInfoError; // @"2003"
 /// ⽤户取消操作
 FOUNDATION_EXPORT YWXSignStatusCode const YWXSignStatusCodeCancel; // 3000
 /// 连续验证识别错误，识别功能被锁定

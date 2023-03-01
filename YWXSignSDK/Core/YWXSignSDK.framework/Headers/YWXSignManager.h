@@ -125,12 +125,30 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)teamSignWithUniqueIdList:(NSArray<NSString *> *)uniqueIdList
                       completion:(nullable YWXCompletion)completion;
 
+/// 开始进行Oauth登录(APP使用)
+/// @param uuid 请求的uuid
+/// @param grantOpenId 授权人id
+/// @param grantUserName 授权人名称
+/// @param completion 回调处理
+-(void)startOauthLogin:(NSString *)uuid
+           grantOpenId:(nullable NSString *)grantOpenId
+         grantUserName:(nullable NSString *)grantUserName
+            completion:(YWXCompletion)completion;
+
 #pragma mark - 二维码相关
 
 /// 对二维码信息进行识别处理
 /// @param qrString 二维码字符串信息
 /// @param completion 回调
 - (void)qrDisposeWithString:(NSString *)qrString
+                 completion:(nullable YWXCompletion)completion;
+
+/// 对二维码信息进行识别处理
+/// @param qrString 二维码字符串信息
+/// @param isHandleGrantOauth 是否处理授权登录（如果存在授权关系会以错误码的形式抛出）
+/// @param completion 回调
+- (void)qrDisposeWithString:(NSString *)qrString
+         isHandleGrantOauth:(BOOL)isHandleGrantOauth
                  completion:(nullable YWXCompletion)completion;
 
 #pragma mark - 自动签
