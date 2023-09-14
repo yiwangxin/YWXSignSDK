@@ -38,6 +38,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// 本地证书是否存在。
 @property (nonatomic, readonly, assign) BOOL existsCert;
 
+/// 指定手机号的本地证书是否存在
+/// @param phone 手机号
+- (BOOL)existsCertWithPhone:(NSString *)phone;
+
 /// 下载证书
 /// @param phone 手机号
 /// @param completion 回调

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YWXSignSDK'
-  s.version          = '4.0.7'
+  s.version          = '4.0.8'
   s.summary          = '医网信医生签名SDK'
 
 # This description is used to generate tags and improve search results.

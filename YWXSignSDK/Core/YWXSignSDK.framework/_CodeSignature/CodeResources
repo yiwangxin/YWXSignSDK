@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/YWXSignManager.h</key>
 		<data>
-		cSVfBQQ422DElkL88GqUJVDB7a8=
+		4cqewsqwREnOKVHiUKrB9bVSOI4=
 		</data>
 		<key>Headers/YWXSignSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CiibObj4D3ySwvpYjUY8Moro0FQ=
+		wfjW1muHhedgVvxIX7AIynj1NFo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cSVfBQQ422DElkL88GqUJVDB7a8=
+			4cqewsqwREnOKVHiUKrB9bVSOI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			i3pmTnXHowMUaMtnJNSQM5HjCOfxp4nL1NiCTL5Sw0I=
+			zy7NYxO74Y0YU00R6sgu90uEiIgedjJBlLpNRmQ18KA=
 			</data>
 		</dict>
 		<key>Headers/YWXSignSDK.h</key>
