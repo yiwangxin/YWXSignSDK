@@ -70,5 +70,4 @@ FOUNDATION_EXPORT YWXSignResponseCode const YWXSignResponseCodeInvalidPhoneNumbe
 /// 账号不存在，请检查!
 FOUNDATION_EXPORT YWXSignResponseCode const YWXSignResponseCodeUserDoesNotExist; // 017x003
 
-
 NS_ASSUME_NONNULL_END
