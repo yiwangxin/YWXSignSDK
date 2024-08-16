@@ -1,6 +1,6 @@
 {
   "name": "YWXSignSDK",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "summary": "医网信医生签名SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yiwangxin/YWXSignSDK.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yiwangxin/YWXSignSDK.git",
-    "tag": "4.0.9"
+    "tag": "4.0.10"
   },
   "platforms": {
     "ios": "10.0"
