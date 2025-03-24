@@ -1,6 +1,6 @@
 {
   "name": "YWXSignSDK",
-  "version": "4.0.10",
+  "version": "4.0.11",
   "summary": "医网信医生签名SDK",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/yiwangxin/YWXSignSDK.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yiwangxin/YWXSignSDK.git",
-    "tag": "4.0.10"
+    "tag": "4.0.11"
   },
   "platforms": {
     "ios": "10.0"
@@ -25,9 +25,7 @@
       "vendored_frameworks": "YWXSignSDK/Core/YWXSignSDK.framework",
       "resources": "YWXSignSDK/Core/YWXSignSDK.bundle",
       "dependencies": {
-        "YWXSignSDK/YWXSignFoundation": [
-
-        ]
+        "YWXSignSDK/YWXSignFoundation": []
       }
     },
     {
@@ -42,9 +40,7 @@
         "YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"
       ],
       "dependencies": {
-        "YWXSignSDK/Core": [
-
-        ]
+        "YWXSignSDK/Core": []
       }
     }
   ]
