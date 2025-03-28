@@ -28,66 +28,66 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
-		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		49D3FE41DF50C55F72F7F4D69D93E70C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64BBBB2991FC1F33016C9D04BFB39E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
-		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		C247AE5759EE5B8C419ACE8CD59AD76C /* Pods-Example-YWXSignSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBBF80265455FA0286EDAD3443458D1 /* Pods-Example-YWXSignSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C370DA677EB10CE20812CD42CF0D10D9 /* Pods-YWXSignSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4695496D5415FAF4A6D7639CB595D014 /* Pods-YWXSignSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C52EF091F63F68490CE74D1A7BC1EB2A /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F0CC1E5BD68E04B5C2FA5CB92B409C /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
-		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		CF3F5AE225BFEB1D6228F662608186F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		D7FF3FD366035C2290101BE7931E06DF /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C02A9FA9F6D46FE5B08BAF2EBC68A85 /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m */; };
-		E7BCCC55B71D8F831C33ADC2C9F928E6 /* Pods-YWXSignSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7706921B9487DAB2BBBD188188AE8B34 /* Pods-YWXSignSDK_Tests-dummy.m */; };
-		FA62351F81CE2D634EF8BFE67A8A2DFD /* Pods-Example-YWXSignSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F179E5FB2249D2A3F6D2DCF42E348EC /* Pods-Example-YWXSignSDK_Example-dummy.m */; };
-		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E40E9256CB9108E8AA5071498197B1 /* Pods-Example-YWXSignSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFBBF80265455FA0286EDAD3443458D1 /* Pods-Example-YWXSignSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */; };
+		12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20978C083B5552E9BF1F9A2259FC0372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		25884BABD5E9F1BD598B5B68637797DA /* Pods-YWXSignSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7706921B9487DAB2BBBD188188AE8B34 /* Pods-YWXSignSDK_Tests-dummy.m */; };
+		267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */; };
+		3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */; };
+		3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47A7404B14B4F2088E5A822636845B5F /* Pods-Example-YWXSignSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F179E5FB2249D2A3F6D2DCF42E348EC /* Pods-Example-YWXSignSDK_Example-dummy.m */; };
+		55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		72A8FA7F34D131FC19034E880C3BC444 /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F0CC1E5BD68E04B5C2FA5CB92B409C /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		823B0934F8247F41E8B81FEEF0FF5B3E /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C02A9FA9F6D46FE5B08BAF2EBC68A85 /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m */; };
+		8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9543510BFF0B6A2A8AA15525FADAEAEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E6773831B9A1DF6C4209D8CAB0374870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */; };
+		E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		F7B89B5C7D57BFB5C9DCFD7BDE27DBF8 /* Pods-YWXSignSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4695496D5415FAF4A6D7639CB595D014 /* Pods-YWXSignSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2058C35BDBAD014C18CFD6524EECD792 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35B792D3FEB702362EE7E6E964A52147;
-			remoteInfo = "Pods-Example-YWXSignSDK_Example";
-		};
-		40D7C9B6AD5098A06339FD339AD1E852 /* PBXContainerItemProxy */ = {
+		54EEB7166569D20B2E83D659353C2E67 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8958EA3E1E3FCE89368A4AA71A70D1D1;
 			remoteInfo = "YWXSignSDK.common-YWXBjcaSignSDK";
 		};
-		6637E8ED54322EDC2CDC52D04042BB90 /* PBXContainerItemProxy */ = {
+		A355D1B220B239E894C32BB755427844 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 54547522881029B6FB285956968D6E1C;
 			remoteInfo = YWXSignSDK.common;
 		};
-		6C3CD9C55A02B8A9F1DDD4BF223D16F8 /* PBXContainerItemProxy */ = {
+		CF2AB9FDC6E1ED6E9BF5045C0564CA73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
+		};
+		E07E1566EDDBAA9B6FCFC86EBB8AEECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B792D3FEB702362EE7E6E964A52147;
+			remoteInfo = "Pods-Example-YWXSignSDK_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -100,18 +100,18 @@
 		12A98F79552A2A478152E7D643E72BE0 /* Signet-SDK-Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = "Signet-SDK-Bundle.bundle"; path = "YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle"; sourceTree = "<group>"; };
 		17F0CC1E5BD68E04B5C2FA5CB92B409C /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-YWXBjcaSignSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		20E1B59F73160552337E203470D86C82 /* YWXSignSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = YWXSignSDK.bundle; path = YWXSignSDK/Core/YWXSignSDK.bundle; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		257B7A699D1A29AAECA871DD4E18F690 /* YWXSignSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YWXSignSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		264A07683621969890740BB2736CEC3A /* Pods-Example-YWXBjcaSignSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-YWXBjcaSignSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2FB49C4701B59BB89E61EF73E3897443 /* Pods-Example-YWXBjcaSignSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-YWXBjcaSignSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		395A0EE878ADD27026CC2AA6DFDCA46F /* Pods-Example-YWXBjcaSignSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-YWXBjcaSignSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3C02A9FA9F6D46FE5B08BAF2EBC68A85 /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-YWXBjcaSignSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		43376AFD6A28F941A2FA3F4FCB6AEEB6 /* Pods-Example-YWXBjcaSignSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-YWXBjcaSignSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		43C5DBE2D07643DAA7CE978536E80066 /* Pods-YWXSignSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YWXSignSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
@@ -120,11 +120,12 @@
 		4F230283D1CEFA3F3E100CE59176940F /* Pods-Example-YWXBjcaSignSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-YWXBjcaSignSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		54A3781570812544793A4B92DCB1C442 /* keyBoard.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = keyBoard.bundle; path = YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle; sourceTree = "<group>"; };
 		55B558FF8B503927677C205DE084B6C5 /* Pods-Example-YWXSignSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-YWXSignSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		66B86F60193EF3B02552BDBE248D5117 /* Pods-YWXSignSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-YWXSignSDK_Tests"; path = Pods_YWXSignSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C8EBBFCAC68640B1B4905BF90B52EE /* Pods-YWXSignSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YWXSignSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		6C63825FA184266467D8BFA58A180CA4 /* Pods-YWXSignSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YWXSignSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		6D85E177BD7B91C53560800E895F5B6A /* YWXSignSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YWXSignSDK.framework; path = YWXSignSDK/Core/YWXSignSDK.framework; sourceTree = "<group>"; };
@@ -161,43 +162,42 @@
 		DFBBF80265455FA0286EDAD3443458D1 /* Pods-Example-YWXSignSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-YWXSignSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		E0EA06637E596932CE6382311B0B4C34 /* Pods-YWXSignSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YWXSignSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E637DD5ED3081DD5EE1E5293170A3B9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0154355AC0162FD3F1D60A3D169CA877 /* Frameworks */ = {
+		2DEE018DCA01451B1E5A464AEE14F3ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64BBBB2991FC1F33016C9D04BFB39E4F /* Foundation.framework in Frameworks */,
+				E6773831B9A1DF6C4209D8CAB0374870 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82C34873363436C81CAD9DEABEF0D071 /* Frameworks */ = {
+		3C30B8AFF1AADA919036322B2BF60016 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49D3FE41DF50C55F72F7F4D69D93E70C /* Foundation.framework in Frameworks */,
+				20978C083B5552E9BF1F9A2259FC0372 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5C4694EFFE912FDD36B13BE31F88341 /* Frameworks */ = {
+		55AEB87DFAD5FF55EC9CC8802799ACB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF3F5AE225BFEB1D6228F662608186F0 /* Foundation.framework in Frameworks */,
+				9543510BFF0B6A2A8AA15525FADAEAEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+		98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
-				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
-				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
-				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+				7CA66236CDA347ACA342DBCAA0F75C7A /* Foundation.framework in Frameworks */,
+				33E349E32C64A93B3CAC6A2667583E98 /* QuartzCore.framework in Frameworks */,
+				3777A70A61ED49FCDDB07BE5F0A1C4B4 /* UIKit.framework in Frameworks */,
+				0AE1FFAA4390B36294D9A3C1E9A2D181 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				692D29656528FA94A71ECFB8FEB6DC0B /* Foundation.framework */,
+				5E6B5E773973965C73BC40D4388B4C07 /* QuartzCore.framework */,
+				4138A0A13FF7F7B73435E87E54C56C18 /* UIKit.framework */,
+				26BC96F34E43FA0A3AE93B3C2C4595E5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		8E90E98213E4E866AD98EE0001A34DD2 /* Pods-Example-YWXSignSDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,7 +406,7 @@
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+				89736692DF329F0B9BF3EFFCEA69EA54 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -453,56 +464,45 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2A70CD0A8FECB5FC483EEE5DE47B8C77 /* Headers */ = {
+		3F24A2B47C4F559CCA33D5E741E727F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C247AE5759EE5B8C419ACE8CD59AD76C /* Pods-Example-YWXSignSDK_Example-umbrella.h in Headers */,
+				F7B89B5C7D57BFB5C9DCFD7BDE27DBF8 /* Pods-YWXSignSDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B18B81033FF074D13AC8A278DF5C801 /* Headers */ = {
+		5406377C1DCE55CC63EF782751B92535 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C52EF091F63F68490CE74D1A7BC1EB2A /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h in Headers */,
+				72A8FA7F34D131FC19034E880C3BC444 /* Pods-Example-YWXBjcaSignSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F52085651446B651FF97E7B05F0650 /* Headers */ = {
+		6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C370DA677EB10CE20812CD42CF0D10D9 /* Pods-YWXSignSDK_Tests-umbrella.h in Headers */,
+				12C8FD3D06F867281B3C87497145DC65 /* FBSnapshotTestCase.h in Headers */,
+				3BF27A2A6F27DCE9645039383FCE19F0 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				76085620117E839C450E794DB3773D79 /* FBSnapshotTestCasePlatform.h in Headers */,
+				CF65A6A0F5F9A6A9FBF5501610AAD758 /* FBSnapshotTestController.h in Headers */,
+				DA747A80391988F1202FF4989A0E12CF /* UIApplication+StrictKeyWindow.h in Headers */,
+				E4F6CF5EA1B12C55385D3CDC6BD1F4D8 /* UIImage+Compare.h in Headers */,
+				F822382AB9E7B343C04964B313B1743D /* UIImage+Diff.h in Headers */,
+				64066CA793C90CA645A6D2031654D2CC /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+		D4B17D65FC416D560BAA32D17FA02BAA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
-				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
-				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
-				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
-				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
-				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
-				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+				02E40E9256CB9108E8AA5071498197B1 /* Pods-Example-YWXSignSDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,17 +511,17 @@
 /* Begin PBXNativeTarget section */
 		35B792D3FEB702362EE7E6E964A52147 /* Pods-Example-YWXSignSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B451DBA57F6DE295C8D49843DC2CCD0 /* Build configuration list for PBXNativeTarget "Pods-Example-YWXSignSDK_Example" */;
+			buildConfigurationList = B56DC68146E70FDDD0C0CE0646F710EC /* Build configuration list for PBXNativeTarget "Pods-Example-YWXSignSDK_Example" */;
 			buildPhases = (
-				2A70CD0A8FECB5FC483EEE5DE47B8C77 /* Headers */,
-				53A7E9C35999066E41FE29582C5D5367 /* Sources */,
-				D5C4694EFFE912FDD36B13BE31F88341 /* Frameworks */,
-				2EFE677A9D846A66C899956D278A4D98 /* Resources */,
+				D4B17D65FC416D560BAA32D17FA02BAA /* Headers */,
+				C61CC07099F225846014D320BDD8A8AD /* Sources */,
+				55AEB87DFAD5FF55EC9CC8802799ACB8 /* Frameworks */,
+				71852186F4C3CAAD1C9A13727AD2DCB9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				90070D43ACD1D2857E70AB01570F881A /* PBXTargetDependency */,
+				587B0F22FDDAA5FEC4EB561BB96C2935 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example-YWXSignSDK_Example";
 			productName = Pods_Example_YWXSignSDK_Example;
@@ -530,17 +530,17 @@
 		};
 		439F8EF9E9E601CDC92D43748B6354EC /* Pods-Example-YWXBjcaSignSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6BD15C5E88B1F0BFE92374618D22A6E /* Build configuration list for PBXNativeTarget "Pods-Example-YWXBjcaSignSDK_Example" */;
+			buildConfigurationList = 63783B42CB1ACB2FBB987CE99DF1DD48 /* Build configuration list for PBXNativeTarget "Pods-Example-YWXBjcaSignSDK_Example" */;
 			buildPhases = (
-				4B18B81033FF074D13AC8A278DF5C801 /* Headers */,
-				DD6A24D347C71399808DB89DD22B7745 /* Sources */,
-				0154355AC0162FD3F1D60A3D169CA877 /* Frameworks */,
-				90054C517C04D0C4F81064BFC27F4CF9 /* Resources */,
+				5406377C1DCE55CC63EF782751B92535 /* Headers */,
+				4C3E3436E91ACD6BB98634D91DD38668 /* Sources */,
+				2DEE018DCA01451B1E5A464AEE14F3ED /* Frameworks */,
+				26D45F29C306461859DA2E83F413250B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1B2C1BC3A5BFE3411C89107FF661CC62 /* PBXTargetDependency */,
+				7558406B783A49A5824487B18002C254 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example-YWXBjcaSignSDK_Example";
 			productName = Pods_Example_YWXBjcaSignSDK_Example;
@@ -549,18 +549,18 @@
 		};
 		5CFAD07E8215DFF843A4ED63388E4FF9 /* Pods-YWXSignSDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD5AA080DBBDD85EF0848D6D0D57E84A /* Build configuration list for PBXNativeTarget "Pods-YWXSignSDK_Tests" */;
+			buildConfigurationList = 849CF22EE651BE9A088C51178E2228A6 /* Build configuration list for PBXNativeTarget "Pods-YWXSignSDK_Tests" */;
 			buildPhases = (
-				80F52085651446B651FF97E7B05F0650 /* Headers */,
-				5EC15C929B6AAF2A47E5AEB293EB7C9B /* Sources */,
-				82C34873363436C81CAD9DEABEF0D071 /* Frameworks */,
-				90771276BECF7597EAB05171C968E5FC /* Resources */,
+				3F24A2B47C4F559CCA33D5E741E727F4 /* Headers */,
+				F1E9F762E6BD9F72E25E758F94469C2B /* Sources */,
+				3C30B8AFF1AADA919036322B2BF60016 /* Frameworks */,
+				6C384855D5D59088572694605CC4420D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5EFEE94FC75023562B420C12DC9F2649 /* PBXTargetDependency */,
-				F2FA19C2101180D1457A757B9E60C1EB /* PBXTargetDependency */,
+				0664EBA95A51B0FEE83051C04FEA1D5E /* PBXTargetDependency */,
+				76F4D88CB0DCB364BFC66C18226254D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-YWXSignSDK_Tests";
 			productName = Pods_YWXSignSDK_Tests;
@@ -569,12 +569,12 @@
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildConfigurationList = 2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
 			buildPhases = (
-				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
-				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
-				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
-				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+				6A11A4ED6C92ACA1C089260BA3F0C776 /* Headers */,
+				7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */,
+				98BC440CA96A0C74FE20742C26FF53BB /* Frameworks */,
+				DF3460C426E5BF623E72782B660ED260 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -591,8 +591,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -603,6 +603,8 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 9321E2FA8090FC52AC5653B1512B9932 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -618,28 +620,28 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+		26D45F29C306461859DA2E83F413250B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EFE677A9D846A66C899956D278A4D98 /* Resources */ = {
+		6C384855D5D59088572694605CC4420D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90054C517C04D0C4F81064BFC27F4CF9 /* Resources */ = {
+		71852186F4C3CAAD1C9A13727AD2DCB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90771276BECF7597EAB05171C968E5FC /* Resources */ = {
+		DF3460C426E5BF623E72782B660ED260 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -649,114 +651,84 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		53A7E9C35999066E41FE29582C5D5367 /* Sources */ = {
+		4C3E3436E91ACD6BB98634D91DD38668 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA62351F81CE2D634EF8BFE67A8A2DFD /* Pods-Example-YWXSignSDK_Example-dummy.m in Sources */,
+				823B0934F8247F41E8B81FEEF0FF5B3E /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5EC15C929B6AAF2A47E5AEB293EB7C9B /* Sources */ = {
+		7D9C35C9AB822511516CD6F4A5D159B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7BCCC55B71D8F831C33ADC2C9F928E6 /* Pods-YWXSignSDK_Tests-dummy.m in Sources */,
+				55D9D4D1609F1F4929E1BA1A1B562445 /* FBSnapshotTestCase.m in Sources */,
+				E759C2EC9B730E3C9C562BBB533B85DC /* FBSnapshotTestCase-dummy.m in Sources */,
+				AEFB700F9EE77EE9848A8AC8C3F00A7F /* FBSnapshotTestCasePlatform.m in Sources */,
+				267AEE0BF1514767DD64B50559013EB3 /* FBSnapshotTestController.m in Sources */,
+				8FD1AB468AF7F87112C3674006F6BC6E /* SwiftSupport.swift in Sources */,
+				CE0DC4614B4FF855B2101D7F74A710AC /* UIApplication+StrictKeyWindow.m in Sources */,
+				593CC778281D0C5DAFD70A5E285DA86A /* UIImage+Compare.m in Sources */,
+				766F6429966FBFF2E2E6A2991BDAFDA9 /* UIImage+Diff.m in Sources */,
+				EA5924031A71EF807EC467903E26FAC0 /* UIImage+Snapshot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD6A24D347C71399808DB89DD22B7745 /* Sources */ = {
+		C61CC07099F225846014D320BDD8A8AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7FF3FD366035C2290101BE7931E06DF /* Pods-Example-YWXBjcaSignSDK_Example-dummy.m in Sources */,
+				47A7404B14B4F2088E5A822636845B5F /* Pods-Example-YWXSignSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+		F1E9F762E6BD9F72E25E758F94469C2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
-				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
-				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
-				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
-				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
-				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
-				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
-				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
-				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+				25884BABD5E9F1BD598B5B68637797DA /* Pods-YWXSignSDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1B2C1BC3A5BFE3411C89107FF661CC62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "YWXSignSDK.common-YWXBjcaSignSDK";
-			target = 8958EA3E1E3FCE89368A4AA71A70D1D1 /* YWXSignSDK.common-YWXBjcaSignSDK */;
-			targetProxy = 40D7C9B6AD5098A06339FD339AD1E852 /* PBXContainerItemProxy */;
-		};
-		5EFEE94FC75023562B420C12DC9F2649 /* PBXTargetDependency */ = {
+		0664EBA95A51B0FEE83051C04FEA1D5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 6C3CD9C55A02B8A9F1DDD4BF223D16F8 /* PBXContainerItemProxy */;
+			targetProxy = CF2AB9FDC6E1ED6E9BF5045C0564CA73 /* PBXContainerItemProxy */;
 		};
-		90070D43ACD1D2857E70AB01570F881A /* PBXTargetDependency */ = {
+		587B0F22FDDAA5FEC4EB561BB96C2935 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = YWXSignSDK.common;
 			target = 54547522881029B6FB285956968D6E1C /* YWXSignSDK.common */;
-			targetProxy = 6637E8ED54322EDC2CDC52D04042BB90 /* PBXContainerItemProxy */;
+			targetProxy = A355D1B220B239E894C32BB755427844 /* PBXContainerItemProxy */;
 		};
-		F2FA19C2101180D1457A757B9E60C1EB /* PBXTargetDependency */ = {
+		7558406B783A49A5824487B18002C254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YWXSignSDK.common-YWXBjcaSignSDK";
+			target = 8958EA3E1E3FCE89368A4AA71A70D1D1 /* YWXSignSDK.common-YWXBjcaSignSDK */;
+			targetProxy = 54EEB7166569D20B2E83D659353C2E67 /* PBXContainerItemProxy */;
+		};
+		76F4D88CB0DCB364BFC66C18226254D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Example-YWXSignSDK_Example";
 			target = 35B792D3FEB702362EE7E6E964A52147 /* Pods-Example-YWXSignSDK_Example */;
-			targetProxy = 2058C35BDBAD014C18CFD6524EECD792 /* PBXContainerItemProxy */;
+			targetProxy = E07E1566EDDBAA9B6FCFC86EBB8AEECE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		249C82210CFA4B8059A38801485514A5 /* Release */ = {
+		06E2B5851E87EF4BD646CE9FBD03EC42 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76B3315CE0E1793C986AAD24D6923627 /* YWXSignSDK.common.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
@@ -765,9 +737,24 @@
 			};
 			name = Release;
 		};
-		30D63ED9258B72B6D5AE6469BC1B89F3 /* Release */ = {
+		0BD2741B56906FB66465F304E7016C95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 395A0EE878ADD27026CC2AA6DFDCA46F /* Pods-Example-YWXBjcaSignSDK_Example.release.xcconfig */;
+			baseConfigurationReference = C351251A0122FFDEE86156B9433638EA /* YWXSignSDK.common-YWXBjcaSignSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1635DA45ADD3F7E239C528E2F1318317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8112A4213A939CF6A96AF2007DC2F64 /* Pods-Example-YWXSignSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -779,12 +766,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXSignSDK_Example/Pods-Example-YWXSignSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-YWXSignSDK_Example/Pods-Example-YWXSignSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -799,13 +788,99 @@
 			};
 			name = Release;
 		};
-		6EC1C9519B6AA896B95A361839935DCC /* Debug */ = {
+		189B160941C76FA2A15D741807CCB47B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C351251A0122FFDEE86156B9433638EA /* YWXSignSDK.common-YWXBjcaSignSDK.debug.xcconfig */;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2BD4135CC452AA420337895C915CCAA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70F79FA3642C87F11324D64F8126EF1 /* YWXSignSDK.common-YWXBjcaSignSDK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48DE2ADA198DD6344F2EFF0C143E959B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53FC5AE604C84AD4E4B49AB67171D32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A77ED900CE91F01C8F8035F0C475D5 /* YWXSignSDK.common.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
@@ -813,9 +888,9 @@
 			};
 			name = Debug;
 		};
-		797422B5B218160E0F07716C8D854DE2 /* Debug */ = {
+		621FF6BDC3E405D06E67526FEEBF6D9D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 264A07683621969890740BB2736CEC3A /* Pods-Example-YWXBjcaSignSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 43C5DBE2D07643DAA7CE978536E80066 /* Pods-YWXSignSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -827,12 +902,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -908,85 +985,7 @@
 			};
 			name = Release;
 		};
-		835A6476AB21E9AF575C2F3B3501FAC1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8112A4213A939CF6A96AF2007DC2F64 /* Pods-Example-YWXSignSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXSignSDK_Example/Pods-Example-YWXSignSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example-YWXSignSDK_Example/Pods-Example-YWXSignSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
-				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
-				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C29F0410F34761E14A9D99408B17346 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6A77ED900CE91F01C8F8035F0C475D5 /* YWXSignSDK.common.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C050917852FF32B8CC49299B9A9A55C6 /* Debug */ = {
+		87CA880EFE1C51E3D8F4079B1458A3DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 734F05E9DB5B3871A4F35BF880191B55 /* Pods-Example-YWXSignSDK_Example.debug.xcconfig */;
 			buildSettings = {
@@ -1000,6 +999,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXSignSDK_Example/Pods-Example-YWXSignSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1019,24 +1020,9 @@
 			};
 			name = Debug;
 		};
-		CDD1F2C248D75CD7D1842A482C9B6B40 /* Release */ = {
+		B1365B09F8003222C96AAF1D49867907 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B70F79FA3642C87F11324D64F8126EF1 /* YWXSignSDK.common-YWXBjcaSignSDK.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CFBB4AADA1FCA76DBABF44AE24B30E9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43C5DBE2D07643DAA7CE978536E80066 /* Pods-YWXSignSDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 395A0EE878ADD27026CC2AA6DFDCA46F /* Pods-Example-YWXBjcaSignSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1048,12 +1034,50 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests-Info.plist";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4F74BBB1158A1594468D3BAD440B4B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264A07683621969890740BB2736CEC3A /* Pods-Example-YWXBjcaSignSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example-YWXBjcaSignSDK_Example/Pods-Example-YWXBjcaSignSDK_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1133,7 +1157,7 @@
 			};
 			name = Debug;
 		};
-		F32741623C2DF4B170BB5BCACC179029 /* Release */ = {
+		FF4719ABCCDD2E7F9556FD20C8DFFCEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA409062DA7F17454D1943EC7194E762 /* Pods-YWXSignSDK_Tests.release.xcconfig */;
 			buildSettings = {
@@ -1147,6 +1171,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "Target Support Files/Pods-YWXSignSDK_Tests/Pods-YWXSignSDK_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1170,20 +1196,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B451DBA57F6DE295C8D49843DC2CCD0 /* Build configuration list for PBXNativeTarget "Pods-Example-YWXSignSDK_Example" */ = {
+		2AC516C05B9400D8A84F4CE51D02E9A3 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C050917852FF32B8CC49299B9A9A55C6 /* Debug */,
-				835A6476AB21E9AF575C2F3B3501FAC1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
-				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+				48DE2ADA198DD6344F2EFF0C143E959B /* Debug */,
+				189B160941C76FA2A15D741807CCB47B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1197,11 +1214,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		63783B42CB1ACB2FBB987CE99DF1DD48 /* Build configuration list for PBXNativeTarget "Pods-Example-YWXBjcaSignSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F74BBB1158A1594468D3BAD440B4B8 /* Debug */,
+				B1365B09F8003222C96AAF1D49867907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6399CC1BA792B59AADAD5D1B674404A2 /* Build configuration list for PBXAggregateTarget "YWXSignSDK.common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C29F0410F34761E14A9D99408B17346 /* Debug */,
-				249C82210CFA4B8059A38801485514A5 /* Release */,
+				53FC5AE604C84AD4E4B49AB67171D32A /* Debug */,
+				06E2B5851E87EF4BD646CE9FBD03EC42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1209,26 +1235,26 @@
 		75F40D370F13BBCBB404F779FBDABF37 /* Build configuration list for PBXAggregateTarget "YWXSignSDK.common-YWXBjcaSignSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EC1C9519B6AA896B95A361839935DCC /* Debug */,
-				CDD1F2C248D75CD7D1842A482C9B6B40 /* Release */,
+				0BD2741B56906FB66465F304E7016C95 /* Debug */,
+				2BD4135CC452AA420337895C915CCAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6BD15C5E88B1F0BFE92374618D22A6E /* Build configuration list for PBXNativeTarget "Pods-Example-YWXBjcaSignSDK_Example" */ = {
+		849CF22EE651BE9A088C51178E2228A6 /* Build configuration list for PBXNativeTarget "Pods-YWXSignSDK_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				797422B5B218160E0F07716C8D854DE2 /* Debug */,
-				30D63ED9258B72B6D5AE6469BC1B89F3 /* Release */,
+				621FF6BDC3E405D06E67526FEEBF6D9D /* Debug */,
+				FF4719ABCCDD2E7F9556FD20C8DFFCEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD5AA080DBBDD85EF0848D6D0D57E84A /* Build configuration list for PBXNativeTarget "Pods-YWXSignSDK_Tests" */ = {
+		B56DC68146E70FDDD0C0CE0646F710EC /* Build configuration list for PBXNativeTarget "Pods-Example-YWXSignSDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFBB4AADA1FCA76DBABF44AE24B30E9A /* Debug */,
-				F32741623C2DF4B170BB5BCACC179029 /* Release */,
+				87CA880EFE1C51E3D8F4079B1458A3DD /* Debug */,
+				1635DA45ADD3F7E239C528E2F1318317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
