@@ -14,12 +14,16 @@ NS_ASSUME_NONNULL_BEGIN
 typedef NS_ENUM(NSUInteger, YWXEnvironment) {
     /// 生产环境
     YWXEnvironmentPublic,
+    /// 医信环境
+    YWXEnvironmentSZYX,
     /// 集成环境
     YWXEnvironmentTest,
     /// 测试环境
     YWXEnvironmentBeta,
     /// 开发环境
     YWXEnvironmentDev,
+    /// 自定义域名环境
+    YWXEnvironmentCustom,
 };
 
 /// 状态码。

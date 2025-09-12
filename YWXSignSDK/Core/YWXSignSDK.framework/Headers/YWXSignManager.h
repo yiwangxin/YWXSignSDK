@@ -27,6 +27,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startWithClientId:(NSString *)clientId
               environment:(YWXEnvironment)environment;
 
+/// SDK 初始化工作
+/// @param clientId 厂商id
+/// @param customURL 环境域名
+- (void)startWithClientId:(NSString *)clientId
+              customURL:(NSString *)customURL;
+
 /// 设置UI页面的导航栏字体颜色和背景颜色
 /// @param navigationBarTintColor 字体颜色
 /// @param navigationBarBackgroundColor 背景颜色
