@@ -4,13 +4,13 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YWXSignSDK (4.1.0):
-    - YWXSignSDK/Core (= 4.1.0)
-  - YWXSignSDK/Core (4.1.0):
+  - YWXSignSDK (4.1.1-beta.1):
+    - YWXSignSDK/Core (= 4.1.1-beta.1)
+  - YWXSignSDK/Core (4.1.1-beta.1):
     - YWXSignSDK/YWXSignFoundation
-  - YWXSignSDK/YWXBjcaSignSDK (4.1.0):
+  - YWXSignSDK/YWXBjcaSignSDK (4.1.1-beta.1):
     - YWXSignSDK/Core
-  - YWXSignSDK/YWXSignFoundation (4.1.0)
+  - YWXSignSDK/YWXSignFoundation (4.1.1-beta.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -27,7 +27,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YWXSignSDK: b555f746d32d58b9eddbd47bc61fe7d467545159
+  YWXSignSDK: 74394985eec98d152cacab60d14faf58904f1b98
 
 PODFILE CHECKSUM: 26b06c4f6f72b69d523f5f0299481a9e1692bb56
 

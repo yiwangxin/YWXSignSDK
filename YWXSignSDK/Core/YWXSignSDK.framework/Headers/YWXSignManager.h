@@ -39,6 +39,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setupUIForNavigationBarTintColor:(UIColor *)navigationBarTintColor
             navigationBarBackgroundColor:(UIColor *)navigationBarBackgroundColor;
 
+/// 绑定环境，医网信专用
+/// @param environments 需要绑定的环境
+- (void)bindEnvironments:(NSArray<NSNumber *> *)environments;
+
 #pragma mark - 证书相关
 
 /// 本地证书是否存在。
