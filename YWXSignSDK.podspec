@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YWXSignSDK'
-  s.version          = '4.1.1-beta.1'
+  s.version          = '4.1.1'
   s.summary          = '医网信医生签名SDK'
 
 # This description is used to generate tags and improve search results.
@@ -29,24 +29,24 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
-  
+
   s.default_subspecs = 'Core'
-    
+
   # 核心模块
   s.subspec 'Core' do |sp|
     sp.vendored_frameworks = 'YWXSignSDK/Core/YWXSignSDK.framework'
     sp.resources = 'YWXSignSDK/Core/YWXSignSDK.bundle'
     sp.dependency 'YWXSignSDK/YWXSignFoundation'
   end
-  
+
   s.subspec 'YWXSignFoundation' do |sp|
     sp.vendored_frameworks = 'YWXSignSDK/Support/Required/YWXSignFoundation.framework'
   end
-  
+
   s.subspec 'YWXBjcaSignSDK' do |sp|
     sp.vendored_frameworks = 'YWXSignSDK/Support/Optional/YWXBjcaSignSDK/YWXBjcaSignSDK.framework'
     sp.resources = ['YWXSignSDK/Support/Optional/YWXBjcaSignSDK/keyBoard.bundle','YWXSignSDK/Support/Optional/YWXBjcaSignSDK/Signet-SDK-Bundle.bundle']
     sp.dependency 'YWXSignSDK/Core'
   end
-  
+
 end
