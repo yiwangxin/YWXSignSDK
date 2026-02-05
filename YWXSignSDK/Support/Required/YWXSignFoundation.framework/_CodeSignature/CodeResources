@@ -42,7 +42,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qheYqEBF6KHJHj2QMYnQ1b/YHRM=
+		KJdghX7R+3mrPB8RgOJ45yWPonI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -57,10 +57,6 @@
 	<dict>
 		<key>Headers/UIViewController+YWXAddition.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tKlEpYpGE4q4HstSXj7wWbUo6D0=
-			</data>
 			<key>hash2</key>
 			<data>
 			sSy3SMsexWRLq7nqD3Yn5F2lXMWCqeCQ7JTUO0VZo3M=
@@ -68,10 +64,6 @@
 		</dict>
 		<key>Headers/YWXAdditions.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			QT34xHWmFxEAxEwuTCuBl4A5uik=
-			</data>
 			<key>hash2</key>
 			<data>
 			C4Fl7zaUz//OFBPHaqodiMCS93lPkpwnJSyuzruMOmE=
@@ -79,10 +71,6 @@
 		</dict>
 		<key>Headers/YWXAlgCFYUserDataManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uOeq8PJC1clSU7daNr3VCLFYcKQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			TI2UDL7MFOpXfduKs13J+cREBnlFmNpVB0frIOcNo1s=
@@ -90,10 +78,6 @@
 		</dict>
 		<key>Headers/YWXDeviceUtils.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VGiN+lcKlM9i2GuX7sVu4pXE3gU=
-			</data>
 			<key>hash2</key>
 			<data>
 			y0RI6/W4JYB4+/cEEHPd53eaqU1+C0fnsOaoSjEIH0Y=
@@ -101,10 +85,6 @@
 		</dict>
 		<key>Headers/YWXFileManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Q00/It6lW0UXdhC/pETxh0BSsWA=
-			</data>
 			<key>hash2</key>
 			<data>
 			XpBo+588xHqXM9YGE/J4Q/aF/dM536V71EkxjgMxAi4=
@@ -112,10 +92,6 @@
 		</dict>
 		<key>Headers/YWXNetworkManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JIihCb2JQfSJzpRfXG07+08tJ3Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			rPldxjQR8+/8ciA5lRMpQ9Gns+kUj563rRcioexQ1K4=
@@ -123,10 +99,6 @@
 		</dict>
 		<key>Headers/YWXProgressHUD.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E9Krg7JZJr+F4ibFE0ZOwLtBqI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			k+PtfzcSSDgNgL9Lh9NRXD8LM6CAjN15neQxmSEehDA=
@@ -134,10 +106,6 @@
 		</dict>
 		<key>Headers/YWXSignFoundation.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+LGFaeNC/O/ZOmokjVEPLhHSRmQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			p0R0MvAbdW2nVja/ZQE4w5xPMgpalKeg0c+IwejVeiI=
@@ -145,10 +113,6 @@
 		</dict>
 		<key>Headers/YWXUtilities.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XWyklfRloHkzlkDaULpchYoTPH8=
-			</data>
 			<key>hash2</key>
 			<data>
 			lGPbqvW4JZ92gg3K7T1ZadxRaToN1Ti5fWgl8DXCVsU=
@@ -156,10 +120,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FYK11UrzAtarRm7/MLYt6eRueWU=
-			</data>
 			<key>hash2</key>
 			<data>
 			+JW3Hf4aXT5cy8HtfG56fYCV75SdfAoS0dLwz8XeXHo=
@@ -167,10 +127,6 @@
 		</dict>
 		<key>README.md</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c1IdHyfpvS//0xlTEnspa52PYUw=
-			</data>
 			<key>hash2</key>
 			<data>
 			CApt22ix1aKzhsHVQ+KY3k/BTcqZaQt7RLOVUoJzxy0=
